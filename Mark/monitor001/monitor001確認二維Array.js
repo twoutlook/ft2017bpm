@@ -267,7 +267,7 @@ function btn_core_t100(lbl, sql) {
     if (txtRadio.value == 0) {
         // alert("*** 正式环境 ***");
         // singleOpenWin(FileName, ds3, SQLClaused, SQLLabel, QBEField, QBELabel, ReturnId, 720, 430);
-        sql=sql.replace(/select/,"select 'T100正式環境' AS ENV,");
+        // sql=sql.replace(/select/,"select 'T100正式環境' AS ENV,");
         // alert("*** 正式环境 ***"+sql);
         var SQLClaused = new Array(sql);
 
@@ -277,7 +277,7 @@ function btn_core_t100(lbl, sql) {
         // alert("--- 测试环境 ---");
         // singleOpenWin(FileName, ds2, SQLClaused, SQLLabel, QBEField, QBELabel, ReturnId, 720, 430);
         
-        sql=sql.replace(/select/,"select 'T100測試環境' AS ENV,");
+        // sql=sql.replace(/select/,"select 'T100測試環境' AS ENV,");
          var SQLClaused = new Array(sql);
         singleOpenWin(FileName, dsT100Test, SQLClaused, SQLLabel, QBEField, QBELabel, ReturnId, 720, 430);
         
@@ -356,8 +356,12 @@ function btn6_onclick() {
 
 function btn7_onclick() {
     lbl = new Array("料号", " 品名", "审核日期");
-    var sql = "select UNIQUE(a.imaa001) 料号,b.imaal003 品名,TO_CHAR(a.imaacnfdt, 'YYYY-MM-DD') 审核日期 from imaa_t a left join  imaal_t b on b.imaal001=a.imaa001 where  a.imaaent=11";
-    btn_core(lbl, sql);
+    // lbl = new Array("料号", " 品名", "审核日期");
+    // var sql = "select UNIQUE(a.imaa001) 料号,b.imaal003 品名,TO_CHAR(a.imaacnfdt, 'YYYY-MM-DD') 审核日期 from imaa_t a left join  imaal_t b on b.imaal001=a.imaa001 where  a.imaaent=11";
+    var sql = "select  料号, 品名,审核日期 from V_PART";
+    // var sql = "select a.imaa001 C1,b.imaal003 C2,TO_CHAR(a.imaacnfdt, 'YYYY-MM-DD') C3 from imaa_t a left join  imaal_t b on b.imaal001=a.imaa001 where  a.imaaent=11";
+
+    btn_core_t100(lbl, sql);
     return true;
 
 }

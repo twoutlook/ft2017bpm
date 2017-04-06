@@ -56,12 +56,14 @@ function clearTxt() {
 // http://10.10.0.33:8086/NaNaWeb/GP/Authentication
 function addDropdownBySQL1(){  
   // var tDataSource= new DataSource("formId","SQLId"); //建立連線(填入表單代號以及SQL Commend代號)  
-  var tDataSource= new DataSource("mark_monitor001","SQL3"); //建立連線(填入表單代號以及SQL Commend代號)  
+  // var tDataSource= new DataSource("mark_monitor001","SQL3"); //建立連線(填入表單代號以及SQL Commend代號)  
+  //VERSION
+  // var tDataSource= new DataSource("mark_monitor002","SQL3"); //建立連線(填入表單代號以及SQL Commend代號)  
   
   // var tSql= "Select column1, column2 from table1"; 
-  var tSql= "SELECT COLUMN1,COLUMN2 FROM TABLE1"; 
+  // var tSql= "SELECT COLUMN1,COLUMN2 FROM TABLE1"; 
 
-  var tResult= tDataSource.query(tSql);  //執行SQL查詢  
+  // var tResult= tDataSource.query(tSql);  //執行SQL查詢  
 
   // tResult=Array(Array("1","A"),Array("2","B"), Array("3","Commend代號"))  ;
 
@@ -546,7 +548,7 @@ function drp_testSQL_onchange(){
     selectId=obj.options[index].value;//选中值
     // document.getElementById("txtDdlText").value = text;//当选择正常领用时，hdn_sqlx显示为正常领用
     document.getElementById("drp_testSQL_hdn").value = selectId;//当选择正常领用时，hdn_sqlxid显示为1
-    document.getElementById("txtDebug").value = selectId;//当选择正常领用时，hdn_sqlxid显示为1
+    document.getElementById("txtDebug").value =  ddlSql[selectId];//当选择正常领用时，hdn_sqlxid显示为1
     // document.getElementById("txtDebug").value = selectId;//当选择正常领用时，hdn_sqlxid显示为1
 
 
