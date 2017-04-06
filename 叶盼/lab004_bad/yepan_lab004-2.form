@@ -1,0 +1,2161 @@
+<com.dsc.nana.domain.form.FormDefinition id="1">
+  <authorName>系统管理员</authorName>
+  <bundleContainer class="com.dsc.nana.domain.XMLRsrcBundleContainerImpl" id="2">
+    <bundleClass>com.dsc.nana.domain.form.FormDefinition</bundleClass>
+  </bundleContainer>
+  <containerOID>d40215bddee7100488d03d47ffcaf95c</containerOID>
+  <createdTime id="3">2017-03-27 10:07:10.436</createdTime>
+  <dataAccessDefinitions class="list" id="4"/>
+  <description></description>
+  <EleCountForDesigner>0</EleCountForDesigner>
+  <elementDefinitions class="list" id="5">
+    <com.dsc.nana.domain.form.TriggerElementDefinition id="6">
+      <caption>btn1 SQL1</caption>
+      <cssStyle>position:absolute;height:30px;text-align:center;color:#000000;width:97px;font-style:normal;font-size:12px;background-color:#ffffff;left:160px;font-weight:normal;top:140px;</cssStyle>
+      <cssDevice id="7">
+        <value>0</value>
+      </cssDevice>
+      <description></description>
+      <elementStyles class="list" id="8">
+        <com.dsc.nana.domain.form.ElementStyle id="9">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="10">
+            <value>0</value>
+          </device>
+          <height>30</height>
+          <width>97</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>160</coordinateX>
+          <coordinateY>140</coordinateY>
+          <alignType id="11">
+            <value>CENTER</value>
+          </alignType>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>btn1</id>
+      <multiZhMap id="12"/>
+      <name>btn1</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>-1</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="13"/>
+    </com.dsc.nana.domain.form.TriggerElementDefinition>
+    <com.dsc.nana.domain.form.TriggerElementDefinition id="14">
+      <caption>btn2 SQL2</caption>
+      <cssStyle>position:absolute;height:25px;color:#000000;text-align:center;font-size:12px;font-style:normal;width:97px;background-color:#ffffff;left:160px;font-weight:normal;top:190px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="15">
+        <com.dsc.nana.domain.form.ElementStyle id="16">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="17">
+            <value>0</value>
+          </device>
+          <height>25</height>
+          <width>97</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>160</coordinateX>
+          <coordinateY>190</coordinateY>
+          <alignType id="18">
+            <value>CENTER</value>
+          </alignType>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>btn2</id>
+      <multiZhMap id="19"/>
+      <name>btn2</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>-1</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="20"/>
+    </com.dsc.nana.domain.form.TriggerElementDefinition>
+    <com.dsc.nana.domain.form.OutputElementDefinition id="21">
+      <length>0</length>
+      <textValue>yepan-demo 開窗</textValue>
+      <dataType id="22">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:44px;text-align:left;color:#000000;width:500px;font-style:normal;font-size:48px;background-color:#ffffff;left:120px;font-weight:normal;top:40px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="23">
+        <com.dsc.nana.domain.form.ElementStyle id="24">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="25">
+            <value>0</value>
+          </device>
+          <height>44</height>
+          <width>500</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>120</coordinateX>
+          <coordinateY>40</coordinateY>
+          <alignType id="26">
+            <value>LEFT</value>
+          </alignType>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>Label0</id>
+      <multiZhMap id="27"/>
+      <name>Label0</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>-1</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="28"/>
+    </com.dsc.nana.domain.form.OutputElementDefinition>
+    <com.dsc.nana.domain.form.InputElementDefinition id="29">
+      <controlType id="30">
+        <value>INPUT_TYPE</value>
+      </controlType>
+      <isRequired>false</isRequired>
+      <isValidateDataType>false</isValidateDataType>
+      <isValidateDataLength>false</isValidateDataLength>
+      <isValidateDataRequire>false</isValidateDataRequire>
+      <participantDefine id="31">
+        <value>NORMAL</value>
+      </participantDefine>
+      <isReplaceThousandths>false</isReplaceThousandths>
+      <isThousandths>false</isThousandths>
+      <isCustomValidation>false</isCustomValidation>
+      <computeFieldRule></computeFieldRule>
+      <computeGridRule></computeGridRule>
+      <decimalPlaces></decimalPlaces>
+      <storeDecimalPointModus></storeDecimalPointModus>
+      <length>0</length>
+      <textValue></textValue>
+      <dataType id="32">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;color:#000000;text-align:left;font-size:12px;font-style:normal;width:122px;background-color:#ffffff;left:40px;font-weight:normal;top:150px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="33">
+        <com.dsc.nana.domain.form.ElementStyle id="34">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="35">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>122</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>40</coordinateX>
+          <coordinateY>150</coordinateY>
+          <alignType id="36">
+            <value>LEFT</value>
+          </alignType>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>txt_pm</id>
+      <multiZhMap id="37"/>
+      <name>txt_pm</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>0</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="38"/>
+    </com.dsc.nana.domain.form.InputElementDefinition>
+    <com.dsc.nana.domain.form.InputElementDefinition id="39">
+      <controlType reference="30"/>
+      <isRequired>false</isRequired>
+      <isValidateDataType>false</isValidateDataType>
+      <isValidateDataLength>false</isValidateDataLength>
+      <isValidateDataRequire>false</isValidateDataRequire>
+      <participantDefine id="40">
+        <value>NORMAL</value>
+      </participantDefine>
+      <isReplaceThousandths>false</isReplaceThousandths>
+      <isThousandths>false</isThousandths>
+      <isCustomValidation>false</isCustomValidation>
+      <computeFieldRule></computeFieldRule>
+      <computeGridRule></computeGridRule>
+      <decimalPlaces></decimalPlaces>
+      <storeDecimalPointModus></storeDecimalPointModus>
+      <length>0</length>
+      <textValue></textValue>
+      <dataType id="41">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;text-align:left;color:#000000;width:100px;font-style:normal;font-size:12px;background-color:#ffffff;left:260px;font-weight:normal;top:150px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="42">
+        <com.dsc.nana.domain.form.ElementStyle id="43">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device reference="35"/>
+          <height>20</height>
+          <width>100</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>260</coordinateX>
+          <coordinateY>150</coordinateY>
+          <alignType reference="36"/>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>txt_gg</id>
+      <multiZhMap id="44"/>
+      <name>txt_gg</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>0</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="45"/>
+    </com.dsc.nana.domain.form.InputElementDefinition>
+    <com.dsc.nana.domain.form.InputElementDefinition id="46">
+      <controlType reference="30"/>
+      <isRequired>false</isRequired>
+      <isValidateDataType>false</isValidateDataType>
+      <isValidateDataLength>false</isValidateDataLength>
+      <isValidateDataRequire>false</isValidateDataRequire>
+      <participantDefine reference="40"/>
+      <isReplaceThousandths>false</isReplaceThousandths>
+      <isThousandths>false</isThousandths>
+      <isCustomValidation>false</isCustomValidation>
+      <computeFieldRule></computeFieldRule>
+      <computeGridRule></computeGridRule>
+      <decimalPlaces></decimalPlaces>
+      <storeDecimalPointModus></storeDecimalPointModus>
+      <length>0</length>
+      <textValue></textValue>
+      <dataType reference="41"/>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;text-align:left;color:#000000;width:100px;font-style:normal;font-size:12px;background-color:#ffffff;left:360px;font-weight:normal;top:150px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="47">
+        <com.dsc.nana.domain.form.ElementStyle id="48">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device reference="35"/>
+          <height>20</height>
+          <width>100</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>360</coordinateX>
+          <coordinateY>150</coordinateY>
+          <alignType id="49">
+            <value>LEFT</value>
+          </alignType>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>txt_dw</id>
+      <multiZhMap id="50"/>
+      <name>txt_dw</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>0</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="51"/>
+    </com.dsc.nana.domain.form.InputElementDefinition>
+    <com.dsc.nana.domain.form.InputElementDefinition id="52">
+      <controlType id="53">
+        <value>INPUT_TYPE</value>
+      </controlType>
+      <isRequired>false</isRequired>
+      <isValidateDataType>false</isValidateDataType>
+      <isValidateDataLength>false</isValidateDataLength>
+      <isValidateDataRequire>false</isValidateDataRequire>
+      <participantDefine id="54">
+        <value>NORMAL</value>
+      </participantDefine>
+      <isReplaceThousandths>false</isReplaceThousandths>
+      <isThousandths>false</isThousandths>
+      <isCustomValidation>false</isCustomValidation>
+      <computeFieldRule></computeFieldRule>
+      <computeGridRule></computeGridRule>
+      <decimalPlaces></decimalPlaces>
+      <storeDecimalPointModus></storeDecimalPointModus>
+      <length>0</length>
+      <textValue></textValue>
+      <dataType id="55">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;text-align:left;color:#000000;width:122px;font-style:normal;font-size:12px;background-color:#ffffff;left:40px;font-weight:normal;top:190px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="56">
+        <com.dsc.nana.domain.form.ElementStyle id="57">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="58">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>122</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>40</coordinateX>
+          <coordinateY>190</coordinateY>
+          <alignType reference="36"/>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>txt1</id>
+      <multiZhMap id="59"/>
+      <name>txt1</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>0</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="60"/>
+    </com.dsc.nana.domain.form.InputElementDefinition>
+    <com.dsc.nana.domain.form.InputElementDefinition id="61">
+      <controlType reference="53"/>
+      <isRequired>false</isRequired>
+      <isValidateDataType>false</isValidateDataType>
+      <isValidateDataLength>false</isValidateDataLength>
+      <isValidateDataRequire>false</isValidateDataRequire>
+      <participantDefine id="62">
+        <value>NORMAL</value>
+      </participantDefine>
+      <isReplaceThousandths>false</isReplaceThousandths>
+      <isThousandths>false</isThousandths>
+      <isCustomValidation>false</isCustomValidation>
+      <computeFieldRule></computeFieldRule>
+      <computeGridRule></computeGridRule>
+      <decimalPlaces></decimalPlaces>
+      <storeDecimalPointModus></storeDecimalPointModus>
+      <length>0</length>
+      <textValue></textValue>
+      <dataType id="63">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;color:#000000;text-align:left;font-size:12px;font-style:normal;width:100px;background-color:#ffffff;left:260px;font-weight:normal;top:190px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="64">
+        <com.dsc.nana.domain.form.ElementStyle id="65">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device reference="58"/>
+          <height>20</height>
+          <width>100</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>260</coordinateX>
+          <coordinateY>190</coordinateY>
+          <alignType reference="36"/>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>txt2</id>
+      <multiZhMap id="66"/>
+      <name>txt2</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>0</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="67"/>
+    </com.dsc.nana.domain.form.InputElementDefinition>
+    <com.dsc.nana.domain.form.InputElementDefinition id="68">
+      <controlType reference="53"/>
+      <isRequired>false</isRequired>
+      <isValidateDataType>false</isValidateDataType>
+      <isValidateDataLength>false</isValidateDataLength>
+      <isValidateDataRequire>false</isValidateDataRequire>
+      <participantDefine reference="62"/>
+      <isReplaceThousandths>false</isReplaceThousandths>
+      <isThousandths>false</isThousandths>
+      <isCustomValidation>false</isCustomValidation>
+      <computeFieldRule></computeFieldRule>
+      <computeGridRule></computeGridRule>
+      <decimalPlaces></decimalPlaces>
+      <storeDecimalPointModus></storeDecimalPointModus>
+      <length>0</length>
+      <textValue></textValue>
+      <dataType reference="63"/>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;color:#000000;text-align:left;font-size:12px;font-style:normal;width:100px;background-color:#ffffff;left:360px;font-weight:normal;top:190px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="69">
+        <com.dsc.nana.domain.form.ElementStyle id="70">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device reference="58"/>
+          <height>20</height>
+          <width>100</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>360</coordinateX>
+          <coordinateY>190</coordinateY>
+          <alignType reference="36"/>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>txt3</id>
+      <multiZhMap id="71"/>
+      <name>txt3</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>0</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="72"/>
+    </com.dsc.nana.domain.form.InputElementDefinition>
+    <com.dsc.nana.domain.form.InputElementDefinition id="73">
+      <controlType id="74">
+        <value>INPUT_TYPE</value>
+      </controlType>
+      <isRequired>false</isRequired>
+      <isValidateDataType>false</isValidateDataType>
+      <isValidateDataLength>false</isValidateDataLength>
+      <isValidateDataRequire>false</isValidateDataRequire>
+      <participantDefine reference="54"/>
+      <isReplaceThousandths>false</isReplaceThousandths>
+      <isThousandths>false</isThousandths>
+      <isCustomValidation>false</isCustomValidation>
+      <computeFieldRule></computeFieldRule>
+      <computeGridRule></computeGridRule>
+      <decimalPlaces></decimalPlaces>
+      <storeDecimalPointModus></storeDecimalPointModus>
+      <length>0</length>
+      <textValue></textValue>
+      <dataType reference="55"/>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;text-align:left;color:#000000;width:100px;font-style:normal;font-size:12px;background-color:#ffffff;left:660px;font-weight:normal;top:190px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="75">
+        <com.dsc.nana.domain.form.ElementStyle id="76">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="77">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>100</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>660</coordinateX>
+          <coordinateY>190</coordinateY>
+          <alignType reference="36"/>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>txt6</id>
+      <multiZhMap id="78"/>
+      <name>txt6</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>0</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="79"/>
+    </com.dsc.nana.domain.form.InputElementDefinition>
+    <com.dsc.nana.domain.form.InputElementDefinition id="80">
+      <controlType id="81">
+        <value>INPUT_TYPE</value>
+      </controlType>
+      <isRequired>false</isRequired>
+      <isValidateDataType>false</isValidateDataType>
+      <isValidateDataLength>false</isValidateDataLength>
+      <isValidateDataRequire>false</isValidateDataRequire>
+      <participantDefine reference="54"/>
+      <isReplaceThousandths>false</isReplaceThousandths>
+      <isThousandths>false</isThousandths>
+      <isCustomValidation>false</isCustomValidation>
+      <computeFieldRule></computeFieldRule>
+      <computeGridRule></computeGridRule>
+      <decimalPlaces></decimalPlaces>
+      <storeDecimalPointModus></storeDecimalPointModus>
+      <length>0</length>
+      <textValue></textValue>
+      <dataType reference="55"/>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;text-align:left;color:#000000;width:100px;font-style:normal;font-size:12px;background-color:#ffffff;left:460px;font-weight:normal;top:190px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="82">
+        <com.dsc.nana.domain.form.ElementStyle id="83">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="84">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>100</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>460</coordinateX>
+          <coordinateY>190</coordinateY>
+          <alignType reference="36"/>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>txt4</id>
+      <multiZhMap id="85"/>
+      <name>txt4</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>0</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="86"/>
+    </com.dsc.nana.domain.form.InputElementDefinition>
+    <com.dsc.nana.domain.form.InputElementDefinition id="87">
+      <controlType reference="81"/>
+      <isRequired>false</isRequired>
+      <isValidateDataType>false</isValidateDataType>
+      <isValidateDataLength>false</isValidateDataLength>
+      <isValidateDataRequire>false</isValidateDataRequire>
+      <participantDefine reference="54"/>
+      <isReplaceThousandths>false</isReplaceThousandths>
+      <isThousandths>false</isThousandths>
+      <isCustomValidation>false</isCustomValidation>
+      <computeFieldRule></computeFieldRule>
+      <computeGridRule></computeGridRule>
+      <decimalPlaces></decimalPlaces>
+      <storeDecimalPointModus></storeDecimalPointModus>
+      <length>0</length>
+      <textValue></textValue>
+      <dataType reference="55"/>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;text-align:left;color:#000000;width:100px;font-style:normal;font-size:12px;background-color:#ffffff;left:560px;font-weight:normal;top:190px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="88">
+        <com.dsc.nana.domain.form.ElementStyle id="89">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device reference="84"/>
+          <height>20</height>
+          <width>100</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>560</coordinateX>
+          <coordinateY>190</coordinateY>
+          <alignType reference="36"/>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>txt5</id>
+      <multiZhMap id="90"/>
+      <name>txt5</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>0</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="91"/>
+    </com.dsc.nana.domain.form.InputElementDefinition>
+    <com.dsc.nana.domain.form.InputElementDefinition id="92">
+      <controlType id="93">
+        <value>INPUT_TYPE</value>
+      </controlType>
+      <isRequired>false</isRequired>
+      <isValidateDataType>false</isValidateDataType>
+      <isValidateDataLength>false</isValidateDataLength>
+      <isValidateDataRequire>false</isValidateDataRequire>
+      <participantDefine reference="31"/>
+      <isReplaceThousandths>false</isReplaceThousandths>
+      <isThousandths>false</isThousandths>
+      <isCustomValidation>false</isCustomValidation>
+      <computeFieldRule></computeFieldRule>
+      <computeGridRule></computeGridRule>
+      <decimalPlaces></decimalPlaces>
+      <storeDecimalPointModus></storeDecimalPointModus>
+      <length>0</length>
+      <textValue></textValue>
+      <dataType reference="32"/>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;color:#000000;text-align:left;font-size:12px;font-style:normal;width:122px;background-color:#ffffff;left:40px;font-weight:normal;top:240px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="94">
+        <com.dsc.nana.domain.form.ElementStyle id="95">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="96">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>122</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>40</coordinateX>
+          <coordinateY>240</coordinateY>
+          <alignType reference="36"/>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>txta1</id>
+      <multiZhMap id="97"/>
+      <name>txta1</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>0</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="98"/>
+    </com.dsc.nana.domain.form.InputElementDefinition>
+    <com.dsc.nana.domain.form.TriggerElementDefinition id="99">
+      <caption>btn3 SQL2</caption>
+      <cssStyle>position:absolute;height:25px;color:#000000;text-align:center;font-size:12px;font-style:normal;width:97px;background-color:#ffffff;left:160px;font-weight:normal;top:240px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="100">
+        <com.dsc.nana.domain.form.ElementStyle id="101">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="102">
+            <value>0</value>
+          </device>
+          <height>25</height>
+          <width>97</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>160</coordinateX>
+          <coordinateY>240</coordinateY>
+          <alignType id="103">
+            <value>CENTER</value>
+          </alignType>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>btn3</id>
+      <multiZhMap id="104"/>
+      <name>btn3</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>-1</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="105"/>
+    </com.dsc.nana.domain.form.TriggerElementDefinition>
+    <com.dsc.nana.domain.form.InputElementDefinition id="106">
+      <controlType reference="93"/>
+      <isRequired>false</isRequired>
+      <isValidateDataType>false</isValidateDataType>
+      <isValidateDataLength>false</isValidateDataLength>
+      <isValidateDataRequire>false</isValidateDataRequire>
+      <participantDefine id="107">
+        <value>NORMAL</value>
+      </participantDefine>
+      <isReplaceThousandths>false</isReplaceThousandths>
+      <isThousandths>false</isThousandths>
+      <isCustomValidation>false</isCustomValidation>
+      <computeFieldRule></computeFieldRule>
+      <computeGridRule></computeGridRule>
+      <decimalPlaces></decimalPlaces>
+      <storeDecimalPointModus></storeDecimalPointModus>
+      <length>0</length>
+      <textValue></textValue>
+      <dataType id="108">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;color:#000000;text-align:left;font-size:12px;font-style:normal;width:100px;background-color:#ffffff;left:260px;font-weight:normal;top:240px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="109">
+        <com.dsc.nana.domain.form.ElementStyle id="110">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device reference="96"/>
+          <height>20</height>
+          <width>100</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>260</coordinateX>
+          <coordinateY>240</coordinateY>
+          <alignType id="111">
+            <value>LEFT</value>
+          </alignType>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>txta2</id>
+      <multiZhMap id="112"/>
+      <name>txta2</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>0</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="113"/>
+    </com.dsc.nana.domain.form.InputElementDefinition>
+    <com.dsc.nana.domain.form.InputElementDefinition id="114">
+      <controlType reference="93"/>
+      <isRequired>false</isRequired>
+      <isValidateDataType>false</isValidateDataType>
+      <isValidateDataLength>false</isValidateDataLength>
+      <isValidateDataRequire>false</isValidateDataRequire>
+      <participantDefine reference="107"/>
+      <isReplaceThousandths>false</isReplaceThousandths>
+      <isThousandths>false</isThousandths>
+      <isCustomValidation>false</isCustomValidation>
+      <computeFieldRule></computeFieldRule>
+      <computeGridRule></computeGridRule>
+      <decimalPlaces></decimalPlaces>
+      <storeDecimalPointModus></storeDecimalPointModus>
+      <length>0</length>
+      <textValue></textValue>
+      <dataType reference="108"/>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;text-align:left;color:#000000;width:100px;font-style:normal;font-size:12px;background-color:#ffffff;left:360px;font-weight:normal;top:240px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="115">
+        <com.dsc.nana.domain.form.ElementStyle id="116">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device reference="96"/>
+          <height>20</height>
+          <width>100</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>360</coordinateX>
+          <coordinateY>240</coordinateY>
+          <alignType reference="36"/>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>txta3</id>
+      <multiZhMap id="117"/>
+      <name>txta3</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>0</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="118"/>
+    </com.dsc.nana.domain.form.InputElementDefinition>
+    <com.dsc.nana.domain.form.InputElementDefinition id="119">
+      <controlType id="120">
+        <value>INPUT_TYPE</value>
+      </controlType>
+      <isRequired>false</isRequired>
+      <isValidateDataType>false</isValidateDataType>
+      <isValidateDataLength>false</isValidateDataLength>
+      <isValidateDataRequire>false</isValidateDataRequire>
+      <participantDefine reference="107"/>
+      <isReplaceThousandths>false</isReplaceThousandths>
+      <isThousandths>false</isThousandths>
+      <isCustomValidation>false</isCustomValidation>
+      <computeFieldRule></computeFieldRule>
+      <computeGridRule></computeGridRule>
+      <decimalPlaces></decimalPlaces>
+      <storeDecimalPointModus></storeDecimalPointModus>
+      <length>0</length>
+      <textValue></textValue>
+      <dataType reference="108"/>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;color:#000000;text-align:left;font-size:12px;font-style:normal;width:100px;background-color:#ffffff;left:460px;font-weight:normal;top:240px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="121">
+        <com.dsc.nana.domain.form.ElementStyle id="122">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="123">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>100</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>460</coordinateX>
+          <coordinateY>240</coordinateY>
+          <alignType reference="111"/>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>txta4</id>
+      <multiZhMap id="124"/>
+      <name>txta4</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>0</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="125"/>
+    </com.dsc.nana.domain.form.InputElementDefinition>
+    <com.dsc.nana.domain.form.InputElementDefinition id="126">
+      <controlType reference="120"/>
+      <isRequired>false</isRequired>
+      <isValidateDataType>false</isValidateDataType>
+      <isValidateDataLength>false</isValidateDataLength>
+      <isValidateDataRequire>false</isValidateDataRequire>
+      <participantDefine reference="107"/>
+      <isReplaceThousandths>false</isReplaceThousandths>
+      <isThousandths>false</isThousandths>
+      <isCustomValidation>false</isCustomValidation>
+      <computeFieldRule></computeFieldRule>
+      <computeGridRule></computeGridRule>
+      <decimalPlaces></decimalPlaces>
+      <storeDecimalPointModus></storeDecimalPointModus>
+      <length>0</length>
+      <textValue></textValue>
+      <dataType reference="108"/>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;color:#000000;text-align:left;font-size:12px;font-style:normal;width:100px;background-color:#ffffff;left:560px;font-weight:normal;top:240px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="127">
+        <com.dsc.nana.domain.form.ElementStyle id="128">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device reference="123"/>
+          <height>20</height>
+          <width>100</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>560</coordinateX>
+          <coordinateY>240</coordinateY>
+          <alignType reference="111"/>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>txta5</id>
+      <multiZhMap id="129"/>
+      <name>txta5</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>0</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="130"/>
+    </com.dsc.nana.domain.form.InputElementDefinition>
+    <com.dsc.nana.domain.form.InputElementDefinition id="131">
+      <controlType id="132">
+        <value>INPUT_TYPE</value>
+      </controlType>
+      <isRequired>false</isRequired>
+      <isValidateDataType>false</isValidateDataType>
+      <isValidateDataLength>false</isValidateDataLength>
+      <isValidateDataRequire>false</isValidateDataRequire>
+      <participantDefine reference="107"/>
+      <isReplaceThousandths>false</isReplaceThousandths>
+      <isThousandths>false</isThousandths>
+      <isCustomValidation>false</isCustomValidation>
+      <computeFieldRule></computeFieldRule>
+      <computeGridRule></computeGridRule>
+      <decimalPlaces></decimalPlaces>
+      <storeDecimalPointModus></storeDecimalPointModus>
+      <length>0</length>
+      <textValue></textValue>
+      <dataType reference="108"/>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;color:#000000;text-align:left;font-size:12px;font-style:normal;width:100px;background-color:#ffffff;left:660px;font-weight:normal;top:240px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="133">
+        <com.dsc.nana.domain.form.ElementStyle id="134">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="135">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>100</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>660</coordinateX>
+          <coordinateY>240</coordinateY>
+          <alignType reference="111"/>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>txta6</id>
+      <multiZhMap id="136"/>
+      <name>txta6</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>0</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="137"/>
+    </com.dsc.nana.domain.form.InputElementDefinition>
+    <com.dsc.nana.domain.form.OutputElementDefinition id="138">
+      <length>0</length>
+      <textValue>单号</textValue>
+      <dataType reference="108"/>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;color:#000000;text-align:left;font-size:12px;font-style:normal;width:110px;background-color:#ffffff;left:50px;font-weight:normal;top:220px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="139">
+        <com.dsc.nana.domain.form.ElementStyle id="140">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="141">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>110</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>50</coordinateX>
+          <coordinateY>220</coordinateY>
+          <alignType reference="111"/>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>Label7</id>
+      <multiZhMap id="142"/>
+      <name>Label7</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>-1</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="143"/>
+    </com.dsc.nana.domain.form.OutputElementDefinition>
+    <com.dsc.nana.domain.form.OutputElementDefinition id="144">
+      <length>0</length>
+      <textValue>生产料号</textValue>
+      <dataType reference="108"/>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;color:#000000;text-align:left;font-size:12px;font-style:normal;width:100px;background-color:#ffffff;left:260px;font-weight:normal;top:220px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="145">
+        <com.dsc.nana.domain.form.ElementStyle id="146">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device reference="141"/>
+          <height>20</height>
+          <width>100</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>260</coordinateX>
+          <coordinateY>220</coordinateY>
+          <alignType reference="111"/>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>Label8</id>
+      <multiZhMap id="147"/>
+      <name>Label8</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>-1</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="148"/>
+    </com.dsc.nana.domain.form.OutputElementDefinition>
+    <com.dsc.nana.domain.form.OutputElementDefinition id="149">
+      <length>0</length>
+      <textValue>品名</textValue>
+      <dataType id="150">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;text-align:left;color:#000000;width:100px;font-style:normal;font-size:12px;background-color:#ffffff;left:360px;font-weight:normal;top:220px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="151">
+        <com.dsc.nana.domain.form.ElementStyle id="152">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="153">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>100</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>360</coordinateX>
+          <coordinateY>220</coordinateY>
+          <alignType reference="111"/>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>Label9</id>
+      <multiZhMap id="154"/>
+      <name>Label9</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>-1</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="155"/>
+    </com.dsc.nana.domain.form.OutputElementDefinition>
+    <com.dsc.nana.domain.form.OutputElementDefinition id="156">
+      <length>0</length>
+      <textValue>本站作业</textValue>
+      <dataType id="157">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:30px;text-align:left;color:#000000;width:80px;font-style:normal;font-size:12px;background-color:#ffffff;left:470px;font-weight:normal;top:220px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="158">
+        <com.dsc.nana.domain.form.ElementStyle id="159">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="160">
+            <value>0</value>
+          </device>
+          <height>30</height>
+          <width>80</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>470</coordinateX>
+          <coordinateY>220</coordinateY>
+          <alignType reference="111"/>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>Label10</id>
+      <multiZhMap id="161"/>
+      <name>Label10</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>-1</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="162"/>
+    </com.dsc.nana.domain.form.OutputElementDefinition>
+    <com.dsc.nana.domain.form.OutputElementDefinition id="163">
+      <length>0</length>
+      <textValue>作业名称</textValue>
+      <dataType id="164">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;text-align:left;color:#000000;width:80px;font-style:normal;font-size:12px;background-color:#ffffff;left:570px;font-weight:normal;top:220px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="165">
+        <com.dsc.nana.domain.form.ElementStyle id="166">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="167">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>80</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>570</coordinateX>
+          <coordinateY>220</coordinateY>
+          <alignType reference="111"/>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>Label11</id>
+      <multiZhMap id="168"/>
+      <name>Label11</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>-1</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="169"/>
+    </com.dsc.nana.domain.form.OutputElementDefinition>
+    <com.dsc.nana.domain.form.OutputElementDefinition id="170">
+      <length>0</length>
+      <textValue>生产数量</textValue>
+      <dataType id="171">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:30px;text-align:left;color:#000000;width:80px;font-style:normal;font-size:12px;background-color:#ffffff;left:670px;font-weight:normal;top:220px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="172">
+        <com.dsc.nana.domain.form.ElementStyle id="173">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="174">
+            <value>0</value>
+          </device>
+          <height>30</height>
+          <width>80</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>670</coordinateX>
+          <coordinateY>220</coordinateY>
+          <alignType reference="111"/>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>Label12</id>
+      <multiZhMap id="175"/>
+      <name>Label12</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>-1</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="176"/>
+    </com.dsc.nana.domain.form.OutputElementDefinition>
+    <com.dsc.nana.domain.form.OutputElementDefinition id="177">
+      <length>0</length>
+      <textValue>预计完工日</textValue>
+      <dataType id="178">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;color:#000000;text-align:left;font-size:12px;font-style:normal;width:80px;background-color:#ffffff;left:770px;font-weight:normal;top:220px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="179">
+        <com.dsc.nana.domain.form.ElementStyle id="180">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="181">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>80</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>770</coordinateX>
+          <coordinateY>220</coordinateY>
+          <alignType reference="111"/>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>Label13</id>
+      <multiZhMap id="182"/>
+      <name>Label13</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>-1</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="183"/>
+    </com.dsc.nana.domain.form.OutputElementDefinition>
+    <com.dsc.nana.domain.form.InputElementDefinition id="184">
+      <controlType id="185">
+        <value>INPUT_TYPE</value>
+      </controlType>
+      <isRequired>false</isRequired>
+      <isValidateDataType>false</isValidateDataType>
+      <isValidateDataLength>false</isValidateDataLength>
+      <isValidateDataRequire>false</isValidateDataRequire>
+      <participantDefine reference="107"/>
+      <isReplaceThousandths>false</isReplaceThousandths>
+      <isThousandths>false</isThousandths>
+      <isCustomValidation>false</isCustomValidation>
+      <computeFieldRule></computeFieldRule>
+      <computeGridRule></computeGridRule>
+      <decimalPlaces></decimalPlaces>
+      <storeDecimalPointModus></storeDecimalPointModus>
+      <length>0</length>
+      <textValue></textValue>
+      <dataType reference="108"/>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;color:#000000;text-align:left;font-size:12px;font-style:normal;width:100px;background-color:#ffffff;left:760px;font-weight:normal;top:240px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="186">
+        <com.dsc.nana.domain.form.ElementStyle id="187">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="188">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>100</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>760</coordinateX>
+          <coordinateY>240</coordinateY>
+          <alignType reference="111"/>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>txta7</id>
+      <multiZhMap id="189"/>
+      <name>txta7</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>0</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="190"/>
+    </com.dsc.nana.domain.form.InputElementDefinition>
+    <com.dsc.nana.domain.form.InputElementDefinition id="191">
+      <controlType id="192">
+        <value>INPUT_TYPE</value>
+      </controlType>
+      <isRequired>false</isRequired>
+      <isValidateDataType>false</isValidateDataType>
+      <isValidateDataLength>false</isValidateDataLength>
+      <isValidateDataRequire>false</isValidateDataRequire>
+      <participantDefine reference="31"/>
+      <isReplaceThousandths>false</isReplaceThousandths>
+      <isThousandths>false</isThousandths>
+      <isCustomValidation>false</isCustomValidation>
+      <computeFieldRule></computeFieldRule>
+      <computeGridRule></computeGridRule>
+      <decimalPlaces></decimalPlaces>
+      <storeDecimalPointModus></storeDecimalPointModus>
+      <length>0</length>
+      <textValue></textValue>
+      <dataType reference="32"/>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;text-align:left;color:#000000;width:122px;font-style:normal;font-size:12px;background-color:#ffffff;left:40px;font-weight:normal;top:320px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="193">
+        <com.dsc.nana.domain.form.ElementStyle id="194">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="195">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>122</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>40</coordinateX>
+          <coordinateY>320</coordinateY>
+          <alignType reference="36"/>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>txtb1</id>
+      <multiZhMap id="196"/>
+      <name>txtb1</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>0</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="197"/>
+    </com.dsc.nana.domain.form.InputElementDefinition>
+    <com.dsc.nana.domain.form.TriggerElementDefinition id="198">
+      <caption>btn3 SQL2</caption>
+      <cssStyle>position:absolute;height:25px;color:#000000;text-align:center;font-size:12px;font-style:normal;width:97px;background-color:#ffffff;left:160px;font-weight:normal;top:320px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="199">
+        <com.dsc.nana.domain.form.ElementStyle id="200">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="201">
+            <value>0</value>
+          </device>
+          <height>25</height>
+          <width>97</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>160</coordinateX>
+          <coordinateY>320</coordinateY>
+          <alignType id="202">
+            <value>CENTER</value>
+          </alignType>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>Button4</id>
+      <multiZhMap id="203"/>
+      <name>Button4</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>-1</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="204"/>
+    </com.dsc.nana.domain.form.TriggerElementDefinition>
+    <com.dsc.nana.domain.form.InputElementDefinition id="205">
+      <controlType reference="192"/>
+      <isRequired>false</isRequired>
+      <isValidateDataType>false</isValidateDataType>
+      <isValidateDataLength>false</isValidateDataLength>
+      <isValidateDataRequire>false</isValidateDataRequire>
+      <participantDefine reference="31"/>
+      <isReplaceThousandths>false</isReplaceThousandths>
+      <isThousandths>false</isThousandths>
+      <isCustomValidation>false</isCustomValidation>
+      <computeFieldRule></computeFieldRule>
+      <computeGridRule></computeGridRule>
+      <decimalPlaces></decimalPlaces>
+      <storeDecimalPointModus></storeDecimalPointModus>
+      <length>0</length>
+      <textValue></textValue>
+      <dataType reference="32"/>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;text-align:left;color:#000000;width:100px;font-style:normal;font-size:12px;background-color:#ffffff;left:260px;font-weight:normal;top:320px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="206">
+        <com.dsc.nana.domain.form.ElementStyle id="207">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device reference="195"/>
+          <height>20</height>
+          <width>100</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>260</coordinateX>
+          <coordinateY>320</coordinateY>
+          <alignType reference="36"/>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>txtb2</id>
+      <multiZhMap id="208"/>
+      <name>txtb2</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>0</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="209"/>
+    </com.dsc.nana.domain.form.InputElementDefinition>
+    <com.dsc.nana.domain.form.InputElementDefinition id="210">
+      <controlType reference="192"/>
+      <isRequired>false</isRequired>
+      <isValidateDataType>false</isValidateDataType>
+      <isValidateDataLength>false</isValidateDataLength>
+      <isValidateDataRequire>false</isValidateDataRequire>
+      <participantDefine reference="31"/>
+      <isReplaceThousandths>false</isReplaceThousandths>
+      <isThousandths>false</isThousandths>
+      <isCustomValidation>false</isCustomValidation>
+      <computeFieldRule></computeFieldRule>
+      <computeGridRule></computeGridRule>
+      <decimalPlaces></decimalPlaces>
+      <storeDecimalPointModus></storeDecimalPointModus>
+      <length>0</length>
+      <textValue></textValue>
+      <dataType reference="32"/>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;color:#000000;text-align:left;font-size:12px;font-style:normal;width:100px;background-color:#ffffff;left:360px;font-weight:normal;top:320px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="211">
+        <com.dsc.nana.domain.form.ElementStyle id="212">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device reference="195"/>
+          <height>20</height>
+          <width>100</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>360</coordinateX>
+          <coordinateY>320</coordinateY>
+          <alignType reference="36"/>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>txtb3</id>
+      <multiZhMap id="213"/>
+      <name>txtb3</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>0</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="214"/>
+    </com.dsc.nana.domain.form.InputElementDefinition>
+    <com.dsc.nana.domain.form.InputElementDefinition id="215">
+      <controlType id="216">
+        <value>INPUT_TYPE</value>
+      </controlType>
+      <isRequired>false</isRequired>
+      <isValidateDataType>false</isValidateDataType>
+      <isValidateDataLength>false</isValidateDataLength>
+      <isValidateDataRequire>false</isValidateDataRequire>
+      <participantDefine reference="31"/>
+      <isReplaceThousandths>false</isReplaceThousandths>
+      <isThousandths>false</isThousandths>
+      <isCustomValidation>false</isCustomValidation>
+      <computeFieldRule></computeFieldRule>
+      <computeGridRule></computeGridRule>
+      <decimalPlaces></decimalPlaces>
+      <storeDecimalPointModus></storeDecimalPointModus>
+      <length>0</length>
+      <textValue></textValue>
+      <dataType reference="32"/>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;text-align:left;color:#000000;width:100px;font-style:normal;font-size:12px;background-color:#ffffff;left:460px;font-weight:normal;top:320px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="217">
+        <com.dsc.nana.domain.form.ElementStyle id="218">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="219">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>100</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>460</coordinateX>
+          <coordinateY>320</coordinateY>
+          <alignType reference="36"/>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>txtb4</id>
+      <multiZhMap id="220"/>
+      <name>txtb4</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>0</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="221"/>
+    </com.dsc.nana.domain.form.InputElementDefinition>
+    <com.dsc.nana.domain.form.InputElementDefinition id="222">
+      <controlType reference="216"/>
+      <isRequired>false</isRequired>
+      <isValidateDataType>false</isValidateDataType>
+      <isValidateDataLength>false</isValidateDataLength>
+      <isValidateDataRequire>false</isValidateDataRequire>
+      <participantDefine reference="31"/>
+      <isReplaceThousandths>false</isReplaceThousandths>
+      <isThousandths>false</isThousandths>
+      <isCustomValidation>false</isCustomValidation>
+      <computeFieldRule></computeFieldRule>
+      <computeGridRule></computeGridRule>
+      <decimalPlaces></decimalPlaces>
+      <storeDecimalPointModus></storeDecimalPointModus>
+      <length>0</length>
+      <textValue></textValue>
+      <dataType reference="32"/>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;text-align:left;color:#000000;width:100px;font-style:normal;font-size:12px;background-color:#ffffff;left:560px;font-weight:normal;top:320px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="223">
+        <com.dsc.nana.domain.form.ElementStyle id="224">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device reference="219"/>
+          <height>20</height>
+          <width>100</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>560</coordinateX>
+          <coordinateY>320</coordinateY>
+          <alignType reference="36"/>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>txtb5</id>
+      <multiZhMap id="225"/>
+      <name>txtb5</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>0</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="226"/>
+    </com.dsc.nana.domain.form.InputElementDefinition>
+    <com.dsc.nana.domain.form.InputElementDefinition id="227">
+      <controlType id="228">
+        <value>INPUT_TYPE</value>
+      </controlType>
+      <isRequired>false</isRequired>
+      <isValidateDataType>false</isValidateDataType>
+      <isValidateDataLength>false</isValidateDataLength>
+      <isValidateDataRequire>false</isValidateDataRequire>
+      <participantDefine reference="31"/>
+      <isReplaceThousandths>false</isReplaceThousandths>
+      <isThousandths>false</isThousandths>
+      <isCustomValidation>false</isCustomValidation>
+      <computeFieldRule></computeFieldRule>
+      <computeGridRule></computeGridRule>
+      <decimalPlaces></decimalPlaces>
+      <storeDecimalPointModus></storeDecimalPointModus>
+      <length>0</length>
+      <textValue></textValue>
+      <dataType reference="32"/>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;text-align:left;color:#000000;width:100px;font-style:normal;font-size:12px;background-color:#ffffff;left:660px;font-weight:normal;top:320px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="229">
+        <com.dsc.nana.domain.form.ElementStyle id="230">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="231">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>100</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>660</coordinateX>
+          <coordinateY>320</coordinateY>
+          <alignType reference="26"/>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>txtb6</id>
+      <multiZhMap id="232"/>
+      <name>txtb6</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>0</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="233"/>
+    </com.dsc.nana.domain.form.InputElementDefinition>
+    <com.dsc.nana.domain.form.OutputElementDefinition id="234">
+      <length>0</length>
+      <textValue>主件料号</textValue>
+      <dataType id="235">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;text-align:left;color:#000000;width:110px;font-style:normal;font-size:12px;background-color:#ffffff;left:50px;font-weight:normal;top:300px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="236">
+        <com.dsc.nana.domain.form.ElementStyle id="237">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="238">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>110</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>50</coordinateX>
+          <coordinateY>300</coordinateY>
+          <alignType reference="36"/>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>Label18</id>
+      <multiZhMap id="239"/>
+      <name>Label18</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>-1</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="240"/>
+    </com.dsc.nana.domain.form.OutputElementDefinition>
+    <com.dsc.nana.domain.form.OutputElementDefinition id="241">
+      <length>0</length>
+      <textValue> 品名</textValue>
+      <dataType reference="235"/>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;text-align:left;color:#000000;width:100px;font-style:normal;font-size:12px;background-color:#ffffff;left:260px;font-weight:normal;top:300px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="242">
+        <com.dsc.nana.domain.form.ElementStyle id="243">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device reference="238"/>
+          <height>20</height>
+          <width>100</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>260</coordinateX>
+          <coordinateY>300</coordinateY>
+          <alignType reference="36"/>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>Label19</id>
+      <multiZhMap id="244"/>
+      <name>Label19</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>-1</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="245"/>
+    </com.dsc.nana.domain.form.OutputElementDefinition>
+    <com.dsc.nana.domain.form.OutputElementDefinition id="246">
+      <length>0</length>
+      <textValue>审核日期</textValue>
+      <dataType id="247">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;color:#000000;text-align:left;font-size:12px;font-style:normal;width:100px;background-color:#ffffff;left:360px;font-weight:normal;top:300px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="248">
+        <com.dsc.nana.domain.form.ElementStyle id="249">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="250">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>100</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>360</coordinateX>
+          <coordinateY>300</coordinateY>
+          <alignType reference="36"/>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>Label15</id>
+      <multiZhMap id="251"/>
+      <name>Label15</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>-1</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="252"/>
+    </com.dsc.nana.domain.form.OutputElementDefinition>
+    <com.dsc.nana.domain.form.OutputElementDefinition id="253">
+      <length>0</length>
+      <textValue>...</textValue>
+      <dataType id="254">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;color:#000000;text-align:left;font-size:12px;font-style:normal;width:80px;background-color:#ffffff;left:470px;font-weight:normal;top:300px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="255">
+        <com.dsc.nana.domain.form.ElementStyle id="256">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="257">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>80</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>470</coordinateX>
+          <coordinateY>300</coordinateY>
+          <alignType reference="36"/>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>Label14</id>
+      <multiZhMap id="258"/>
+      <name>Label14</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>-1</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="259"/>
+    </com.dsc.nana.domain.form.OutputElementDefinition>
+    <com.dsc.nana.domain.form.OutputElementDefinition id="260">
+      <length>0</length>
+      <textValue>...</textValue>
+      <dataType id="261">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;color:#000000;text-align:left;font-size:12px;font-style:normal;width:80px;background-color:#ffffff;left:570px;font-weight:normal;top:300px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="262">
+        <com.dsc.nana.domain.form.ElementStyle id="263">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="264">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>80</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>570</coordinateX>
+          <coordinateY>300</coordinateY>
+          <alignType reference="36"/>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>Label16</id>
+      <multiZhMap id="265"/>
+      <name>Label16</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>-1</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="266"/>
+    </com.dsc.nana.domain.form.OutputElementDefinition>
+    <com.dsc.nana.domain.form.OutputElementDefinition id="267">
+      <length>0</length>
+      <textValue>...</textValue>
+      <dataType id="268">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;color:#000000;text-align:left;font-size:12px;font-style:normal;width:80px;background-color:#ffffff;left:670px;font-weight:normal;top:300px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="269">
+        <com.dsc.nana.domain.form.ElementStyle id="270">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="271">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>80</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>670</coordinateX>
+          <coordinateY>300</coordinateY>
+          <alignType reference="36"/>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>Label17</id>
+      <multiZhMap id="272"/>
+      <name>Label17</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>-1</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="273"/>
+    </com.dsc.nana.domain.form.OutputElementDefinition>
+    <com.dsc.nana.domain.form.OutputElementDefinition id="274">
+      <length>0</length>
+      <textValue>...</textValue>
+      <dataType id="275">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;text-align:left;color:#000000;width:80px;font-style:normal;font-size:12px;background-color:#ffffff;left:770px;font-weight:normal;top:300px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="276">
+        <com.dsc.nana.domain.form.ElementStyle id="277">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="278">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>80</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>770</coordinateX>
+          <coordinateY>300</coordinateY>
+          <alignType reference="36"/>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>Label20</id>
+      <multiZhMap id="279"/>
+      <name>Label20</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>-1</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="280"/>
+    </com.dsc.nana.domain.form.OutputElementDefinition>
+    <com.dsc.nana.domain.form.InputElementDefinition id="281">
+      <controlType id="282">
+        <value>INPUT_TYPE</value>
+      </controlType>
+      <isRequired>false</isRequired>
+      <isValidateDataType>false</isValidateDataType>
+      <isValidateDataLength>false</isValidateDataLength>
+      <isValidateDataRequire>false</isValidateDataRequire>
+      <participantDefine id="283">
+        <value>NORMAL</value>
+      </participantDefine>
+      <isReplaceThousandths>false</isReplaceThousandths>
+      <isThousandths>false</isThousandths>
+      <isCustomValidation>false</isCustomValidation>
+      <computeFieldRule></computeFieldRule>
+      <computeGridRule></computeGridRule>
+      <decimalPlaces></decimalPlaces>
+      <storeDecimalPointModus></storeDecimalPointModus>
+      <length>0</length>
+      <textValue></textValue>
+      <dataType id="284">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;text-align:left;color:#000000;width:100px;font-style:normal;font-size:12px;background-color:#ffffff;left:760px;font-weight:normal;top:240px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="285">
+        <com.dsc.nana.domain.form.ElementStyle id="286">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="287">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>100</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>760</coordinateX>
+          <coordinateY>240</coordinateY>
+          <alignType id="288">
+            <value>LEFT</value>
+          </alignType>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>Textbox21</id>
+      <multiZhMap id="289"/>
+      <name>Textbox21</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>0</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="290"/>
+    </com.dsc.nana.domain.form.InputElementDefinition>
+    <com.dsc.nana.domain.form.InputElementDefinition id="291">
+      <controlType id="292">
+        <value>INPUT_TYPE</value>
+      </controlType>
+      <isRequired>false</isRequired>
+      <isValidateDataType>false</isValidateDataType>
+      <isValidateDataLength>false</isValidateDataLength>
+      <isValidateDataRequire>false</isValidateDataRequire>
+      <participantDefine id="293">
+        <value>NORMAL</value>
+      </participantDefine>
+      <isReplaceThousandths>false</isReplaceThousandths>
+      <isThousandths>false</isThousandths>
+      <isCustomValidation>false</isCustomValidation>
+      <computeFieldRule></computeFieldRule>
+      <computeGridRule></computeGridRule>
+      <decimalPlaces></decimalPlaces>
+      <storeDecimalPointModus></storeDecimalPointModus>
+      <length>0</length>
+      <textValue></textValue>
+      <dataType id="294">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;color:#000000;text-align:left;font-size:12px;font-style:normal;width:100px;background-color:#ffffff;left:760px;font-weight:normal;top:320px;</cssStyle>
+      <cssDevice reference="7"/>
+      <description></description>
+      <elementStyles class="list" id="295">
+        <com.dsc.nana.domain.form.ElementStyle id="296">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="297">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>100</width>
+          <foregroundColor>-16777216</foregroundColor>
+          <backgroundColor>-1</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>760</coordinateX>
+          <coordinateY>320</coordinateY>
+          <alignType reference="26"/>
+          <rwdRowIndex>-1</rwdRowIndex>
+          <rwdColumnIndex>-1</rwdColumnIndex>
+          <rwdContainer></rwdContainer>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint></hint>
+      <id>txtb7</id>
+      <multiZhMap id="298"/>
+      <name>txtb7</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>0</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="299"/>
+    </com.dsc.nana.domain.form.InputElementDefinition>
+  </elementDefinitions>
+  <formDefinitionStyles class="list" id="300">
+    <com.dsc.nana.domain.form.FormDefinitionStyle id="301">
+      <device reference="10"/>
+      <backgroundImageSerialize id="302"></backgroundImageSerialize>
+      <isAbsolutePosition>true</isAbsolutePosition>
+      <height>480</height>
+      <width>878</width>
+    </com.dsc.nana.domain.form.FormDefinitionStyle>
+  </formDefinitionStyles>
+  <id>yepan_lab004</id>
+  <multiZhMap id="303">
+    <entry>
+      <locale id="304">en_US</locale>
+      <string></string>
+    </entry>
+    <entry>
+      <locale id="305">zh_CN</locale>
+      <string></string>
+    </entry>
+    <entry>
+      <locale id="306">zh_TW</locale>
+      <string></string>
+    </entry>
+  </multiZhMap>
+  <name>yepan_lab004</name>
+  <processCommentType id="307">
+    <value>SHOW_ALL</value>
+  </processCommentType>
+  <publicationStatus id="308">
+    <value>RELEASED</value>
+  </publicationStatus>
+  <script>//常用引入外部JS
+document.write(&apos;&lt;script type=&quot;text/javascript&quot; src=&quot;../../CustomJsLib/EFGPShareMethod.js&quot;&gt;&lt;/script&gt;&apos;);//for 开窗
+
+//数据库链接
+var databaseCfgId_EFGP = &quot;EFGPTEST&quot;;   //系統管理員資料來源(DataAccessDefinition)代號
+var ds2 = &quot;T100TEST&quot;;   //系統管理員資料來源(DataAccessDefinition)代號
+
+
+function btn1_onclick(){
+    // alert(&quot;婷婷1btn_bgyp_onclick&quot;);
+  	var FileName = &quot;SingleOpenWin&quot;;		
+	var sql = &quot; select BGYPNAME,BGYPSPEC,BGYPUOM from Z_BGYP  &quot;; 
+	var SQLClaused = new Array(sql);
+	var SQLLabel = new Array(&quot;品名&quot;,&quot;规格&quot;,&quot;单位&quot;);//客制开窗的Grid Label
+	var QBEField = new Array(&quot;BGYPNAME&quot;,&quot;BGYPSPEC&quot;,&quot;BGYPUOM&quot;);//模糊查询,須和DB Table栏位名称相同
+	var QBELabel = new Array(&quot;品名&quot;,&quot;规格&quot;,&quot;单位&quot;);//模糊查询的Label
+     var ReturnId = new Array(&quot;txt_pm&quot;,&quot;txt_gg&quot;,&quot;txt_dw&quot;);//表单上的栏位代号
+	singleOpenWin(FileName, databaseCfgId_EFGP, SQLClaused, SQLLabel, QBEField, QBELabel, ReturnId, 720, 430);
+     
+}
+
+function btn2_onclick(){
+    // alert(&quot;btn2_onclick&quot;);
+  	var FileName = &quot;SingleOpenWin&quot;;		
+	var sql = &quot; SELECT 单号,生产料号,品名,本站作业,生产数量,预计完工日 FROM V002 &quot;; 
+	var SQLClaused = new Array(sql);
+	var SQLLabel = new Array(&quot;单号&quot;,&quot;生产料号&quot;,&quot;品名&quot;,&quot;本站作业&quot;,&quot;生产数量&quot;,&quot;预计完工日&quot;);//客制开窗的Grid Label
+	var QBEField = new Array(&quot;单号&quot;,&quot;生产料号&quot;,&quot;品名&quot;,&quot;本站作业&quot;,&quot;生产数量&quot;,&quot;预计完工日&quot;);//模糊查询,須和DB Table栏位名称相同
+	var QBELabel = new Array(&quot;单号&quot;,&quot;生产料号&quot;,&quot;品名&quot;,&quot;本站作业&quot;,&quot;生产数量&quot;,&quot;预计完工日&quot;);//模糊查询的Label
+     var ReturnId = new Array(&quot;txt1&quot;,&quot;txt2&quot;,&quot;txt3&quot;,&quot;txt4&quot;,&quot;txt5&quot;,&quot;txt6&quot;);//表单上的栏位代号
+	singleOpenWin(FileName, ds2, SQLClaused, SQLLabel, QBEField, QBELabel, ReturnId, 720, 430);
+     
+}
+
+function btn3_onclick(){
+    // alert(&quot;btn2_onclick&quot;);
+  	var FileName = &quot;SingleOpenWin&quot;;		
+	var sql = &quot; SELECT 单号,生产料号,品名,本站作业,作业名称,生产数量,预计完工日 FROM V003 &quot;; 
+	// 单号	生产料号	品名	本站作业	作业名称	生产数量	预计完工日
+
+	var SQLClaused = new Array(sql);
+	var SQLLabel = new Array(&quot;单号&quot;,&quot;生产料号&quot;,&quot;品名&quot;,&quot;本站作业&quot;,&quot;作业名称&quot;,&quot;生产数量&quot;,&quot;预计完工日&quot;);//客制开窗的Grid Label
+	var QBEField = new Array(&quot;单号&quot;,&quot;生产料号&quot;,&quot;品名&quot;,&quot;本站作业&quot;,&quot;作业名称&quot;,&quot;生产数量&quot;,&quot;预计完工日&quot;);//模糊查询,須和DB Table栏位名称相同
+	var QBELabel = new Array(&quot;单号&quot;,&quot;生产料号&quot;,&quot;品名&quot;,&quot;本站作业&quot;,&quot;作业名称&quot;,&quot;生产数量&quot;,&quot;预计完工日&quot;);//模糊查询的Label
+     var ReturnId = new Array(&quot;txta1&quot;,&quot;txta2&quot;,&quot;txta3&quot;,&quot;txta4&quot;,&quot;txta5&quot;,&quot;txta6&quot;,&quot;txta7&quot;);//表单上的栏位代号
+	singleOpenWin(FileName, ds2, SQLClaused, SQLLabel, QBEField, QBELabel, ReturnId, 720, 430);
+     
+}
+
+function formCreate(){
+return true;
+}
+function formOpen(){
+return true;
+}
+function formSave(){
+return true;
+}
+function formClose(){
+return true;
+}
+//$-----Auto generated script block, Please do not edit or modify script below this line.-----$//</script>
+  <sqlCmds class="list" id="309">
+    <com.dsc.nana.domain.form.SqlCommand id="310">
+      <id>SQL2</id>
+      <statement>SELECT 单号,生产料号,品名,本站作业,生产数量,预计完工日
+FROM V002</statement>
+      <description></description>
+      <dataAcsDefId>T100TEST</dataAcsDefId>
+      <query>true</query>
+      <statical>true</statical>
+      <sqlTypes id="311"/>
+      <elementStyles class="set" id="312"/>
+    </com.dsc.nana.domain.form.SqlCommand>
+    <com.dsc.nana.domain.form.SqlCommand id="313">
+      <id>SQL1</id>
+      <statement>SELECT * FROM Z_BGYP</statement>
+      <description></description>
+      <dataAcsDefId>EFGPTEST</dataAcsDefId>
+      <query>true</query>
+      <statical>true</statical>
+      <sqlTypes id="314"/>
+      <elementStyles class="set" id="315"/>
+    </com.dsc.nana.domain.form.SqlCommand>
+  </sqlCmds>
+  <validFrom id="316">2017-03-24 10:15:23.0</validFrom>
+  <version>5</version>
+  <appDesignType id="317">
+    <value>-1</value>
+  </appDesignType>
+  <mobileScript>function formCreate(){
+return true;
+}
+function formOpen(){
+return true;
+}
+function formSave(){
+return true;
+}
+function formClose(){
+return true;
+}
+//$-----Auto generated script block, Please do not edit or modify script below this line.-----$//</mobileScript>
+  <SET__PROXY__CLASS__NAME>org.apache.ojb.broker.accesslayer.SetProxy</SET__PROXY__CLASS__NAME>
+  <LIST__PROXY__CLASS__NAME>org.apache.ojb.broker.accesslayer.ListProxy</LIST__PROXY__CLASS__NAME>
+  <dto>true</dto>
+  <dtoState id="318">
+    <value>1</value>
+  </dtoState>
+  <OID>dc619098dee7100488d03d47ffcaf95c</OID>
+  <objectVersion>1</objectVersion>
+</com.dsc.nana.domain.form.FormDefinition>

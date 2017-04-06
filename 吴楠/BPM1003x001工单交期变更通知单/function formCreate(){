@@ -1,0 +1,17 @@
+function formCreate(){
+//alert("婷婷111  formCreate")
+return true;
+}
+function formOpen(){
+//alert("婷婷222  formOpen")
+return true;
+}
+function formSave(){
+//alert("婷婷333  formSave")
+return true;
+}
+function formClose(){
+//alert("婷婷444  formClose")
+return true;
+}
+//$-----Auto generated script block, Please do not edit or modify script below this line.-----$//

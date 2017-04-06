@@ -1,0 +1,5 @@
+document.getElementById("txt_userId").value=userId
+document.getElementById("txt_userName").value=userName
+document.getElementById("txt_mainOrgUnitIds").value=mainOrgUnitIds
+document.getElementById("txt_mainOrgUnitNames").value=mainOrgUnitNames
+document.getElementById("txt_systemDateTime").value=systemDateTime
