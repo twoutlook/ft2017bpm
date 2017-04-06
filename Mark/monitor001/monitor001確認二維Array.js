@@ -1,6 +1,7 @@
 //常用引入外部JS
 document.write('<script type="text/javascript" src="../../CustomJsLib/EFGPShareMethod.js"></script>'); //for 开窗
 document.write('<script type="text/javascript" src="http://10.10.0.70/projectnote/js"></script>'); //for 开窗
+document.write('<script type="text/javascript" src="http://10.10.0.70/projectnote/js2"></script>'); //for 开窗
 
 //数据库链接
 var databaseCfgId_EFGP = "EFGPTEST"; //办公用品
@@ -62,14 +63,20 @@ function addDropdownBySQL1(){
 
   var tResult= tDataSource.query(tSql);  //執行SQL查詢  
 
-  tResult=Array(Array("1","A"),Array("2","B"), Array("3","Commend代號"))  ;
+  // tResult=Array(Array("1","A"),Array("2","B"), Array("3","Commend代號"))  ;
 
-  alert("tResult");
-  alert(tResult);
+// GREAT!
+// 2017-04-06, by Mark
+// ddlResult is mocking query result
+// It turns out working very well!
+tResult=ddlResult;
+
+  // alert("???tResult");
+  // alert(tResult);
 
   var tResultArray=eval(tResult);  //查詢結果為一個二維陣列  
-  alert("tResultArray");
-  alert(tResultArray);
+  // alert("tResultArray");
+  // alert(tResultArray);
 
 
   DWRUtil.removeAllOptions("drp_testSQL");  //先移除所有下拉式選單內容  
