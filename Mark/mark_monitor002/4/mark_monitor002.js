@@ -1,7 +1,22 @@
 //常用引入外部JS
 document.write('<script type="text/javascript" src="../../CustomJsLib/EFGPShareMethod.js"></script>'); //for 开窗
-document.write('<script type="text/javascript" src="http://10.10.0.70/projectnote/js"></script>'); //for 开窗
-document.write('<script type="text/javascript" src="http://10.10.0.70/projectnote/js2"></script>'); //for 开窗
+//document.write('<script type="text/javascript" src="http://10.10.0.70/projectnote/js"></script>'); //for 开窗
+//document.write('<script type="text/javascript" src="http://10.10.0.70/projectnote/js2"></script>'); //for 开窗
+
+// 04/06 21:07 GOOD ONE
+// ddlResult=Array( Array("0","--- ( 請選擇) ---"), Array("1","(1)料件"), Array("2","(2)BOM"), Array("3","(3)产品工艺"), ) ;
+// ddlSql=Array( ".", "select 料号, 品名,审核日期 from V_PART", "select 主件料号, 品名,审核日期 from BASIC002", "select 工艺料号,品名,工艺编号,说明,审核日期 from BASIC003", ) ;
+// ddlLbl=Array( Array(), Array( "料号"," 品名","审核日期" ), Array( "主件料号","品名","审核日期" ), Array( "工艺料号","品名","工艺编号","说明","审核日期" ), ) ; 
+
+
+
+
+ddlResult=Array( Array("0","--- ( 請選擇) ---"), Array("1","(1)料件"), Array("2","(2)BOM"), Array("3","(3)产品工艺"), Array("4","(4)料件主分群码"), Array("5","(5)供应商"), ) ;
+ddlSql=Array( "", "select 料号, 品名,审核日期 from V_PART", "select 主件料号, 品名,审核日期 from BASIC002", "select 工艺料号,品名,工艺编号,说明,审核日期 from BASIC003", "select 主分群码,说明,审核日期 from BASIC004", "select 供应商编号,供应商全名,资料审核日期 from BASIC005", ) ;
+ddlLbl=Array( Array( ), Array( "料号"," 品名","审核日期" ), Array( "主件料号"," 品名","审核日期" ), Array( "工艺料号","品名","工艺编号","说明","审核日期" ), Array( "主分群码","说明","审核日期" ), Array( "供应商编号","供应商全名","资料审核日期" ), ) ;
+
+
+
 
 //数据库链接
 var databaseCfgId_EFGP = "EFGPTEST"; //办公用品
@@ -287,6 +302,77 @@ function btn_core_t100(lbl, sql) {
     // alert("end of core");
 }
 
+
+
+function btn_core_t100_v2(lbl_en,lbl_zh, sql) {
+
+    //2017-04-01, by Mark
+    //http://stackoverflow.com/questions/586182/how-to-insert-an-item-into-an-array-at-a-specific-index
+    // lbl=lbl.splice(0,0,"ENV");
+
+    clearTxt(); //清畫面
+    //table th
+    if (lbl.length >= 1) lbl1.value = lbl[0];
+    if (lbl.length >= 2) lbl2.value = lbl[1];
+    if (lbl.length >= 3) lbl3.value = lbl[2];
+    if (lbl.length >= 4) lbl4.value = lbl[3];
+    if (lbl.length >= 5) lbl5.value = lbl[4];
+    if (lbl.length >= 6) lbl6.value = lbl[5];
+    if (lbl.length >= 7) lbl7.value = lbl[6];
+
+    // T100 BPM 要求的樣式
+    var FileName = "SingleOpenWin";
+
+
+    // 2017-04-01, by Mark 
+    // to show ENV
+    //
+
+
+
+    // var SQLClaused = new Array(sql);
+    var SQLLabel = lbl_zh; //客制开窗的Grid Label
+    var QBEField = lbl_en; //模糊查询,須和DB Table栏位名称相同
+    var QBELabel = lbl_zh; //模糊查询的Label
+
+    if (lbl.length == 3) {
+        var ReturnId = new Array("txt1", "txt2", "txt3");
+    }
+    if (lbl.length == 4) {
+        var ReturnId = new Array("txt1", "txt2", "txt3", "txt4");
+    }
+    if (lbl.length == 5) {
+        var ReturnId = new Array("txt1", "txt2", "txt3", "txt4", "txt5");
+    }
+    if (lbl.length == 6) {
+        var ReturnId = new Array("txt1", "txt2", "txt3", "txt4", "txt5", "txt6");
+    }
+    if (lbl.length == 7) {
+        var ReturnId = new Array("txt1", "txt2", "txt3", "txt4", "txt5", "txt6", "txt7");
+    }
+
+    if (txtRadio.value == 0) {
+        // alert("*** 正式环境 ***");
+        // singleOpenWin(FileName, ds3, SQLClaused, SQLLabel, QBEField, QBELabel, ReturnId, 720, 430);
+        // sql=sql.replace(/select/,"select 'T100正式環境' AS ENV,");
+        // alert("*** 正式环境 ***"+sql);
+        var SQLClaused = new Array(sql);
+
+        singleOpenWin(FileName, dsT100Prod, SQLClaused, SQLLabel, QBEField, QBELabel, ReturnId, 720, 430);
+    }
+    if (txtRadio.value == 1) {
+        // alert("--- 测试环境 ---");
+        // singleOpenWin(FileName, ds2, SQLClaused, SQLLabel, QBEField, QBELabel, ReturnId, 720, 430);
+        
+        // sql=sql.replace(/select/,"select 'T100測試環境' AS ENV,");
+         var SQLClaused = new Array(sql);
+        singleOpenWin(FileName, dsT100Test, SQLClaused, SQLLabel, QBEField, QBELabel, ReturnId, 720, 430);
+        
+    }
+    // alert("end of core");
+}
+
+
 function btn_core_bpm(lbl, sql) {
     clearTxt(); //清畫面
     //table th
@@ -518,8 +604,14 @@ function radio_onclick() { //radiobutton控件取值
         }
     }
 //直接点选正式环境或测试环境
- btnRun_onclick();
+ // btnRun_onclick();
+drp_testSQL_onchange();
+}
 
+function btnRun_onclick() { //radiobutton控件取值
+// alert("why?");
+// radio_onclick();
+drp_testSQL_onchange();
 }
 
 var selectId=0
@@ -548,8 +640,30 @@ function drp_testSQL_onchange(){
     selectId=obj.options[index].value;//选中值
     // document.getElementById("txtDdlText").value = text;//当选择正常领用时，hdn_sqlx显示为正常领用
     document.getElementById("drp_testSQL_hdn").value = selectId;//当选择正常领用时，hdn_sqlxid显示为1
-    document.getElementById("txtDebug").value = selectId;//当选择正常领用时，hdn_sqlxid显示为1
     // document.getElementById("txtDebug").value = selectId;//当选择正常领用时，hdn_sqlxid显示为1
+
+
+   // lbl = new Array("料号", " 品名", "审核日期");
+    // lbl = new Array("料号", " 品名", "审核日期");
+    // var sql = "select UNIQUE(a.imaa001) 料号,b.imaal003 品名,TO_CHAR(a.imaacnfdt, 'YYYY-MM-DD') 审核日期 from imaa_t a left join  imaal_t b on b.imaal001=a.imaa001 where  a.imaaent=11";
+    //var sql = "select  料号, 品名,审核日期 from V_PART";
+    var sql = ddlSql [selectId];
+    var lbl = ddlLbl [selectId];
+    // var lbl_zh = ddlLbl_zh [selectId];
+
+//http://www.w3school.com.cn/jsref/jsref_replace.asp
+    // &#39;
+    //sql=sql.replace(/&#39;/g,"'");
+    document.getElementById("txtDebug").value =sql;//当选择正常领用时，hdn_sqlxid显示为1
+    // document.getElementById("txtDebug2").value =lbl_en;//当选择正常领用时，hdn_sqlxid显示为1
+    
+    // var sql = "select a.imaa001 C1,b.imaal003 C2,TO_CHAR(a.imaacnfdt, 'YYYY-MM-DD') C3 from imaa_t a left join  imaal_t b on b.imaal001=a.imaa001 where  a.imaaent=11";
+    // alert(lbl_en);
+
+     // btn_core_t100(lbl, sql);
+    btn_core_t100(lbl, sql);
+
+
 
 
 }
@@ -568,11 +682,11 @@ function ddl2_onchange(){
     // if (value==1) btn1_onclick();
     // if (value==2) btn2_onclick();
     // if (value==3) btn3_onclick();
-    btnRun_onclick();
+    btn_onclick();
 
 }
 
-function btnRun_onclick(){
+function btn_onclick(){
      if (selectId==1) btn1_onclick();
     if (selectId==2) btn2_onclick();
     if (selectId==3) btn3_onclick();
