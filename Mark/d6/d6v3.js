@@ -52,12 +52,64 @@ txt06x= "客户编号,客户全名,客户简称,客户全名二";
 txt06y= "客户编号,客户全名,客户简称,客户全名二";
 txt06z= "客户编号,客户全名,客户简称,客户全名二";
 
+txt07= "SELECT 状态,客户编号,客户简称,公司料件编号,公司料件品名,公司料件规格,产品特征,产品特征说明,客户料件编号,客户料件品名,客户料件规格     FROM BASIC007";
+txt07x= "状态,客户编号,客户简称,公司料件编号,公司料件品名,公司料件规格,产品特征,产品特征说明,客户料件编号,客户料件品名,客户料件规格";
+txt07y= "状态,客户编号,客户简称,公司料件编号,公司料件品名,公司料件规格,产品特征,产品特征说明,客户料件编号,客户料件品名,客户料件规格";
+txt07z= "状态,客户编号,客户简称,公司料件编号,公司料件品名,公司料件规格,产品特征,产品特征说明,客户料件编号,客户料件品名,客户料件规格";
 
 
+// SELECT 包装方式,包装说明,包装容器,品名,规格  FROM BASIC008
+// SELECT 检验项目,说明,状态  FROM BASIC009
+// SELECT 设备编号,名称,简称 FROM BASIC010A
+// SELECT 模具编号,名称,简称 FROM BASIC010B
+// SELECT 刀具编号,名称,简称 FROM BASIC010C
+//  SELECT MRBE002,IMAAL003,IMAAL004 FROM BASIC011
+   // SELECT 保养项目,说明 FROM BASIC012
+   // SELECT 仪器编号,名称,简称 FROM BASIC013
+txt08= "SELECT 包装方式,包装说明,包装容器,品名,规格  FROM BASIC008";
+txt08x= "包装方式,包装说明,包装容器,品名,规格";
+txt08y= "包装方式,包装说明,包装容器,品名,规格";
+txt08z= "包装方式,包装说明,包装容器,品名,规格";
+
+txt09= "SELECT 检验项目,说明,状态  FROM BASIC009";
+txt09x= "检验项目,说明,状态";
+txt09y= "检验项目,说明,状态";
+txt09z= "检验项目,说明,状态";
 
 
+txt101= "SELECT 设备编号,名称,简称 FROM BASIC010A";
+txt101x= "设备编号,名称,简称";
+txt101y= "设备编号,名称,简称";
+txt101z= "设备编号,名称,简称";
 
-   
+
+txt102= "SELECT 模具编号,名称,简称 FROM BASIC010B";
+txt102x= "模具编号,名称,简称";
+txt102y= "模具编号,名称,简称";
+txt102z= "模具编号,名称,简称";
+
+txt103= "SELECT 刀具编号,名称,简称 FROM BASIC010C";
+txt103x= "刀具编号,名称,简称";
+txt103y= "刀具编号,名称,简称";
+txt103z= "刀具编号,名称,简称";
+
+txt11= "SELECT MRBE002,IMAAL003,IMAAL004 FROM BASIC011";
+txt11x= "MRBE002,IMAAL003,IMAAL004";
+txt11y= "MRBE002,IMAAL003,IMAAL004";
+txt11z= "MRBE002,IMAAL003,IMAAL004";
+
+txt12= "SELECT 保养项目,说明 FROM BASIC012";
+txt12x= "保养项目,说明";
+txt12y= "保养项目,说明";
+txt12z= "保养项目,说明";
+
+
+txt13= "SELECT 仪器编号,名称,简称 FROM BASIC013";
+txt13x= "仪器编号,名称,简称";
+txt13y= "仪器编号,名称,简称";
+txt13z= "仪器编号,名称,简称";
+
+
 function formCreate() {
     return true;
 }
@@ -123,6 +175,81 @@ function txt06a_onclick(){
 function txt06b_onclick(){
 	mark003(dsT100Test, txt06, txt06x, txt06y, txt06z);
 }
+// 7
+function txt07a_onclick(){
+	mark003(dsT100Prod, txt07, txt07x, txt07y, txt07z);
+}
+function txt07b_onclick(){
+	mark003(dsT100Test, txt07, txt07x, txt07y, txt07z);
+}
+
+// 8
+function txt08a_onclick(){
+	mark003(dsT100Prod, txt08, txt08x, txt08y, txt08z);
+}
+function txt08b_onclick(){
+	mark003(dsT100Test, txt08, txt08x, txt08y, txt08z);
+}
+
+// 09
+function txt09a_onclick(){
+	mark003(dsT100Prod, txt09, txt09x, txt09y, txt09z);
+}
+function txt09b_onclick(){
+	mark003(dsT100Test, txt09, txt09x, txt09y, txt09z);
+}
+
+
+
+// 101
+function txt101a_onclick(){
+	mark003(dsT100Prod, txt101, txt101x, txt101y, txt101z);
+}
+function txt101b_onclick(){
+	mark003(dsT100Test, txt101, txt101x, txt101y, txt101z);
+}
+// 102
+function txt102a_onclick(){
+	mark003(dsT100Prod, txt102, txt102x, txt102y, txt102z);
+}
+function txt102b_onclick(){
+	mark003(dsT100Test, txt102, txt102x, txt102y, txt102z);
+}
+// 103
+function txt103a_onclick(){
+	mark003(dsT100Prod, txt103, txt103x, txt103y, txt103z);
+}
+function txt103b_onclick(){
+	mark003(dsT100Test, txt103, txt103x, txt103y, txt103z);
+}
+
+
+// 11
+function txt11a_onclick(){
+	mark003(dsT100Prod, txt11, txt11x, txt11y, txt11z);
+}
+function txt11b_onclick(){
+	mark003(dsT100Test, txt11, txt11x, txt11y, txt11z);
+}
+
+// 12
+function txt12a_onclick(){
+	mark003(dsT100Prod, txt12, txt12x, txt12y, txt12z);
+}
+function txt12b_onclick(){
+	mark003(dsT100Test, txt12, txt12x, txt12y, txt12z);
+}
+// 13
+function txt13a_onclick(){
+	mark003(dsT100Prod, txt13, txt13x, txt13y, txt13z);
+}
+function txt13b_onclick(){
+	mark003(dsT100Test, txt13, txt13x, txt13y, txt13z);
+}
+
+
+
+
 
 
 
