@@ -1,4 +1,4 @@
-alert(" to set debug ..");
+// alert(" to set debug ..");
 //常用引入外部JS
 document.write('<script type="text/javascript" src="../../CustomJsLib/EFGPShareMethod.js"></script>'); //for 开窗
 //数据库链接
@@ -37,8 +37,20 @@ txt03y= "工艺料号,品名,工艺编号,说明,审核日期";
 txt03z= "工艺料号,品名,工艺编号,说明,审核日期";
 
 txt04=  "select 主分群码,说明,审核日期 from BASIC004";
-txt05= "select 供应商编号,供应商全名,资料审核日期 from BASIC005";
+txt04x=  "主分群码,说明,审核日期";
+txt04y=  "主分群码,说明,审核日期";
+txt04z=  "主分群码,说明,审核日期";
 
+
+txt05= "select 供应商编号,供应商全名,资料审核日期 from BASIC005";
+txt05x= "供应商编号,供应商全名,资料审核日期";
+txt05y= "供应商编号,供应商全名,资料审核日期";
+txt05z= "供应商编号,供应商全名,资料审核日期";
+
+txt06= "SELECT 客户编号,客户全名,客户简称,客户全名二 FROM BASIC006";
+txt06x= "客户编号,客户全名,客户简称,客户全名二";
+txt06y= "客户编号,客户全名,客户简称,客户全名二";
+txt06z= "客户编号,客户全名,客户简称,客户全名二";
 
 
 
@@ -80,12 +92,38 @@ function txt02a_onclick(){
 function txt02b_onclick(){
 	mark003(dsT100Test, txt02, txt02x, txt02y, txt02z);
 }
+
+// txt3
 function txt03a_onclick(){
 	mark003(dsT100Prod, txt03, txt03x, txt03y, txt03z);
 }
 function txt03b_onclick(){
 	mark003(dsT100Test, txt03, txt03x, txt03y, txt03z);
 }
+
+// txt4
+function txt04a_onclick(){
+	mark003(dsT100Prod, txt04, txt04x, txt04y, txt04z);
+}
+function txt04b_onclick(){
+	mark003(dsT100Test, txt04, txt04x, txt04y, txt04z);
+}
+
+// txt5
+function txt05a_onclick(){
+	mark003(dsT100Prod, txt05, txt05x, txt05y, txt05z);
+}
+function txt05b_onclick(){
+	mark003(dsT100Test, txt05, txt05x, txt05y, txt05z);
+}
+// txt6
+function txt06a_onclick(){
+	mark003(dsT100Prod, txt06, txt06x, txt06y, txt06z);
+}
+function txt06b_onclick(){
+	mark003(dsT100Test, txt06, txt06x, txt06y, txt06z);
+}
+
 
 
 
@@ -222,7 +260,14 @@ txtSec_label=new Array("员工工号","员工姓名","部门名称","职称","�
 	pluralityOpenWin(FileName, dsT100Test, SQLClaused, SQLLabel, QBEField, QBELabel, ReturnId, 720, 600);
 }
 
+function initTxt(sql,txta, txtb){
+		// sql="SELECT COUNT(*) CNT FROM BASIC005";
+	rst= T100PROD.query(sql);  //執行SQL查詢  
+	document.getElementById(txta).value = rst[0][0];
+	rst= T100TEST.query(sql);  //執行SQL查詢  
+	document.getElementById(txtb).value = rst[0][0];
 
+}
 
 // 员工用戶帳號
 
@@ -240,11 +285,11 @@ function initCnt(){
 	var tResult= T100PROD.query(tSql);  //執行SQL查詢  
 	document.getElementById("txt01a").value = tResult[0][1];
 	document.getElementById("txt7").value = tResult[0][2];
-	document.getElementById("txtQryEnd").value = tResult[0][2];
+	// document.getElementById("txtQryEnd").value = tResult[0][2];
 	
-	var tSql1 = "select 'T100员工[测试]' 查询主题,COUNT(*) 笔数,to_char(sysdate,'yyyy-mm-dd hh24:mm:ss') 查询时间 from V_EMPE_LEVEL  ";
-	var tResult1= T100TEST.query(tSql1);  //執行SQL查詢  
-	document.getElementById("txt01b").value = tResult1[0][1];
+	// var tSql1 = "select 'T100员工[测试]' 查询主题,COUNT(*) 笔数,to_char(sysdate,'yyyy-mm-dd hh24:mm:ss') 查询时间 from V_EMPE_LEVEL  ";
+	// var tResult1= T100TEST.query(tSql1);  //執行SQL查詢  
+	// document.getElementById("txt01b").value = tResult1[0][1];
 	// document.getElementById("txt7").value = tResult1[0][2];
 
 
@@ -279,13 +324,57 @@ function initCnt(){
 	
 
 	var tResult2a= T100PROD.query("SELECT COUNT(*) CNT FROM BASIC002");  //執行SQL查詢  
-	document.getElementById("txt02b").value = tResult2a[0][0];
+	document.getElementById("txt02a").value = tResult2a[0][0];
 	var tResult2b= T100TEST.query("SELECT COUNT(*) CNT FROM BASIC002");  //執行SQL查詢  
 	document.getElementById("txt02b").value = tResult2b[0][0];
 
+	// 03
+	sql03="SELECT COUNT(*) CNT FROM BASIC003";
+	rst= T100PROD.query(sql03);  //執行SQL查詢  
+	document.getElementById("txt03a").value = rst[0][0];
+	rst= T100TEST.query(sql03);  //執行SQL查詢  
+	document.getElementById("txt03b").value = rst[0][0];
+
+	// 04
+	sql04="SELECT COUNT(*) CNT FROM BASIC004";
+	rst= T100PROD.query(sql04);  //執行SQL查詢  
+	document.getElementById("txt04a").value = rst[0][0];
+	rst= T100TEST.query(sql04);  //執行SQL查詢  
+	document.getElementById("txt04b").value = rst[0][0];
+
+	// 05
+	sql="SELECT COUNT(*) CNT FROM BASIC005";
+	rst= T100PROD.query(sql);  //執行SQL查詢  
+	document.getElementById("txt05a").value = rst[0][0];
+	rst= T100TEST.query(sql);  //執行SQL查詢  
+	document.getElementById("txt05b").value = rst[0][0];
 
 
+	initTxt("SELECT COUNT(*) CNT FROM BASIC001", "txt01a", "txt01b");
+	initTxt("SELECT COUNT(*) CNT FROM BASIC002", "txt02a", "txt02b");
+	initTxt("SELECT COUNT(*) CNT FROM BASIC003", "txt03a", "txt03b");
+	initTxt("SELECT COUNT(*) CNT FROM BASIC004", "txt04a", "txt04b");
+	initTxt("SELECT COUNT(*) CNT FROM BASIC005", "txt05a", "txt05b");
+	initTxt("SELECT COUNT(*) CNT FROM BASIC006", "txt06a", "txt06b");
+	initTxt("SELECT COUNT(*) CNT FROM BASIC007", "txt07a", "txt07b");
+	initTxt("SELECT COUNT(*) CNT FROM BASIC008", "txt08a", "txt08b");
+	initTxt("SELECT COUNT(*) CNT FROM BASIC009", "txt09a", "txt09b");
 
+	// BE CAREFUL NAMING
+	initTxt("SELECT COUNT(*) CNT FROM BASIC010A", "txt101a", "txt101b");
+	initTxt("SELECT COUNT(*) CNT FROM BASIC010B", "txt102a", "txt102b");
+	initTxt("SELECT COUNT(*) CNT FROM BASIC010C", "txt103a", "txt103b");
+	
+	initTxt("SELECT COUNT(*) CNT FROM BASIC011", "txt11a", "txt11b");
+	initTxt("SELECT COUNT(*) CNT FROM BASIC012", "txt12a", "txt12b");
+	initTxt("SELECT COUNT(*) CNT FROM BASIC013", "txt13a", "txt13b");
+
+
+	// 2017-04-14 13:11, by Mark
+	// to get end time 
+	var tSql = "select 'txt01' 查询主题,COUNT(*) 笔数,to_char(sysdate,'yyyy-mm-dd hh24:mm:ss') 查询时间 from BASIC013 ";
+	var tResult= T100PROD.query(tSql);  //執行SQL查詢  
+	document.getElementById("txtQryEnd").value = tResult[0][2];
 
 	// document.getElementById("txt03a").value = '333aaa';
 	// document.getElementById("txt7").value = tResult4[0][2];
