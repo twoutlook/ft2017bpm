@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="lib/JakartaCommons/commons-beanutils.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/JakartaCommons/commons-collections.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/JakartaCommons/commons-dbcp.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/JakartaCommons/commons-dbutils.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/JakartaCommons/commons-digester.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/JakartaCommons/commons-fileupload.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/JakartaCommons/commons-httpclient.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/JakartaCommons/commons-io.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/JakartaCommons/commons-lang.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/JakartaCommons/commons-logging.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/JakartaCommons/commons-pool.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/JakartaCommons/commons-validator.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/JDBCDrivers/Merlia.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/JDBCDrivers/ojdbc14.jar"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

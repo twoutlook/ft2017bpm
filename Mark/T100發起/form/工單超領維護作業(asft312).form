@@ -1,0 +1,3467 @@
+<com.dsc.nana.domain.form.FormDefinition id="1">
+  <authorName>系统管理员</authorName>
+  <bundleContainer class="com.dsc.nana.domain.XMLRsrcBundleContainerImpl" id="2">
+    <bundleClass>com.dsc.nana.domain.form.FormDefinition</bundleClass>
+  </bundleContainer>
+  <containerOID>19827bd1df0c1004816e49b8ba9b866e</containerOID>
+  <createdTime id="3">2017-04-14 10:27:54.339</createdTime>
+  <dataAccessDefinitions class="list" id="4"/>
+  <EleCountForDesigner>0</EleCountForDesigner>
+  <elementDefinitions class="list" id="5">
+    <com.dsc.nana.domain.form.OutputElementDefinition id="6">
+      <length>0</length>
+      <textValue>基本資料</textValue>
+      <dataType id="7">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;color:#000000;text-align:center;width:780px;font-size:12;font-style:normal;background-color:#cccccc;left:10px;font-weight:normal;top:20px;</cssStyle>
+      <cssDevice id="8">
+        <value>0</value>
+      </cssDevice>
+      <description></description>
+      <elementStyles class="list" id="9">
+        <com.dsc.nana.domain.form.ElementStyle id="10">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="11">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>780</width>
+          <foregroundColor>0</foregroundColor>
+          <backgroundColor>13421772</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>10</coordinateX>
+          <coordinateY>20</coordinateY>
+          <alignType id="12">
+            <value>CENTER</value>
+          </alignType>
+          <rwdRowIndex>0</rwdRowIndex>
+          <rwdColumnIndex>0</rwdColumnIndex>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint>label:基本資料</hint>
+      <id>page_1</id>
+      <multiZhMap id="13">
+        <entry>
+          <locale id="14">zh_CN</locale>
+          <com.dsc.nana.domain.form.MulitZhEntity id="15">
+            <ZhLocale reference="14"/>
+            <ZhPresentation>基本资料</ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+        <entry>
+          <locale id="16">zh_TW</locale>
+          <com.dsc.nana.domain.form.MulitZhEntity id="17">
+            <ZhLocale reference="16"/>
+            <ZhPresentation>基本資料</ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+      </multiZhMap>
+      <name>page_1</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>-1</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="18"/>
+    </com.dsc.nana.domain.form.OutputElementDefinition>
+    <com.dsc.nana.domain.form.OutputElementDefinition id="19">
+      <length>0</length>
+      <textValue>發退料單號</textValue>
+      <dataType id="20">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;color:#;text-align:left;width:100px;font-size:12px;background-color:#ffffff;left:10px;top:60px;</cssStyle>
+      <cssDevice reference="8"/>
+      <elementStyles class="list" id="21">
+        <com.dsc.nana.domain.form.ElementStyle id="22">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="23">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>100</width>
+          <foregroundColor>0</foregroundColor>
+          <backgroundColor>16777215</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>10</coordinateX>
+          <coordinateY>60</coordinateY>
+          <alignType id="24">
+            <value>LEFT</value>
+          </alignType>
+          <rwdRowIndex>0</rwdRowIndex>
+          <rwdColumnIndex>0</rwdColumnIndex>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint>label:發退料單號</hint>
+      <id>lbl_sfdadocno</id>
+      <multiZhMap id="25">
+        <entry>
+          <locale id="26">ko_KR</locale>
+          <com.dsc.nana.domain.form.MulitZhEntity id="27">
+            <ZhLocale reference="26"/>
+            <ZhPresentation></ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+        <entry>
+          <locale id="28">ja_JP</locale>
+          <com.dsc.nana.domain.form.MulitZhEntity id="29">
+            <ZhLocale reference="28"/>
+            <ZhPresentation></ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+        <entry>
+          <locale id="30">vi_VN</locale>
+          <com.dsc.nana.domain.form.MulitZhEntity id="31">
+            <ZhLocale reference="30"/>
+            <ZhPresentation>Mã đơn phát/trả liệu</ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+        <entry>
+          <locale id="32">en_US</locale>
+          <com.dsc.nana.domain.form.MulitZhEntity id="33">
+            <ZhLocale reference="32"/>
+            <ZhPresentation></ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+        <entry>
+          <locale id="34">th_TH</locale>
+          <com.dsc.nana.domain.form.MulitZhEntity id="35">
+            <ZhLocale reference="34"/>
+            <ZhPresentation></ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+        <entry>
+          <locale reference="14"/>
+          <com.dsc.nana.domain.form.MulitZhEntity id="36">
+            <ZhLocale reference="14"/>
+            <ZhPresentation>发退料单号</ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+        <entry>
+          <locale reference="16"/>
+          <com.dsc.nana.domain.form.MulitZhEntity id="37">
+            <ZhLocale reference="16"/>
+            <ZhPresentation>發退料單號</ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+      </multiZhMap>
+      <name>lbl_sfdadocno</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>-1</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="38"/>
+    </com.dsc.nana.domain.form.OutputElementDefinition>
+    <com.dsc.nana.domain.form.InputElementDefinition id="39">
+      <controlType id="40">
+        <value>INPUT_TYPE</value>
+      </controlType>
+      <isRequired>false</isRequired>
+      <isValidateDataType>false</isValidateDataType>
+      <isValidateDataLength>false</isValidateDataLength>
+      <isValidateDataRequire>false</isValidateDataRequire>
+      <participantDefine id="41">
+        <value>NORMAL</value>
+      </participantDefine>
+      <isReplaceThousandths>false</isReplaceThousandths>
+      <isThousandths>false</isThousandths>
+      <isCustomValidation>false</isCustomValidation>
+      <length>0</length>
+      <dataType id="42">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;color:#;text-align:left;width:200px;font-size:12px;background-color:#ffffff;left:110px;top:60px;</cssStyle>
+      <cssDevice reference="8"/>
+      <elementStyles class="list" id="43">
+        <com.dsc.nana.domain.form.ElementStyle id="44">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="45">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>200</width>
+          <foregroundColor>0</foregroundColor>
+          <backgroundColor>16777215</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>110</coordinateX>
+          <coordinateY>60</coordinateY>
+          <alignType id="46">
+            <value>LEFT</value>
+          </alignType>
+          <rwdRowIndex>0</rwdRowIndex>
+          <rwdColumnIndex>0</rwdColumnIndex>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint>發退料單號</hint>
+      <id>sfdadocno</id>
+      <multiZhMap id="47"/>
+      <name>sfdadocno</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>0</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="48"/>
+    </com.dsc.nana.domain.form.InputElementDefinition>
+    <com.dsc.nana.domain.form.OutputElementDefinition id="49">
+      <length>0</length>
+      <textValue>單據日期</textValue>
+      <dataType id="50">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;color:#;text-align:left;width:100px;font-size:12px;background-color:#ffffff;left:10px;top:140px;</cssStyle>
+      <cssDevice reference="8"/>
+      <elementStyles class="list" id="51">
+        <com.dsc.nana.domain.form.ElementStyle id="52">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="53">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>100</width>
+          <foregroundColor>0</foregroundColor>
+          <backgroundColor>16777215</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>10</coordinateX>
+          <coordinateY>140</coordinateY>
+          <alignType id="54">
+            <value>LEFT</value>
+          </alignType>
+          <rwdRowIndex>0</rwdRowIndex>
+          <rwdColumnIndex>0</rwdColumnIndex>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint>label:單據日期</hint>
+      <id>lbl_sfdadocdt</id>
+      <multiZhMap id="55">
+        <entry>
+          <locale reference="26"/>
+          <com.dsc.nana.domain.form.MulitZhEntity id="56">
+            <ZhLocale reference="26"/>
+            <ZhPresentation>장표 날짜</ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+        <entry>
+          <locale reference="28"/>
+          <com.dsc.nana.domain.form.MulitZhEntity id="57">
+            <ZhLocale reference="28"/>
+            <ZhPresentation>帳票期日</ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+        <entry>
+          <locale reference="30"/>
+          <com.dsc.nana.domain.form.MulitZhEntity id="58">
+            <ZhLocale reference="30"/>
+            <ZhPresentation>Ngày chứng từ</ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+        <entry>
+          <locale reference="32"/>
+          <com.dsc.nana.domain.form.MulitZhEntity id="59">
+            <ZhLocale reference="32"/>
+            <ZhPresentation>Doc Date</ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+        <entry>
+          <locale reference="34"/>
+          <com.dsc.nana.domain.form.MulitZhEntity id="60">
+            <ZhLocale reference="34"/>
+            <ZhPresentation>วันที่ของใบเสร็จ</ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+        <entry>
+          <locale reference="14"/>
+          <com.dsc.nana.domain.form.MulitZhEntity id="61">
+            <ZhLocale reference="14"/>
+            <ZhPresentation>单据日期</ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+        <entry>
+          <locale reference="16"/>
+          <com.dsc.nana.domain.form.MulitZhEntity id="62">
+            <ZhLocale reference="16"/>
+            <ZhPresentation>單據日期</ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+      </multiZhMap>
+      <name>lbl_sfdadocdt</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>-1</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="63"/>
+    </com.dsc.nana.domain.form.OutputElementDefinition>
+    <com.dsc.nana.domain.form.InputElementDefinition id="64">
+      <controlType id="65">
+        <value>INPUT_TYPE</value>
+      </controlType>
+      <isRequired>false</isRequired>
+      <isValidateDataType>false</isValidateDataType>
+      <isValidateDataLength>false</isValidateDataLength>
+      <isValidateDataRequire>false</isValidateDataRequire>
+      <participantDefine id="66">
+        <value>NORMAL</value>
+      </participantDefine>
+      <isReplaceThousandths>false</isReplaceThousandths>
+      <isThousandths>false</isThousandths>
+      <isCustomValidation>false</isCustomValidation>
+      <length>0</length>
+      <dataType id="67">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;text-align:left;color:#;width:200px;font-size:12px;background-color:#ffffff;left:110px;top:140px;</cssStyle>
+      <cssDevice reference="8"/>
+      <elementStyles class="list" id="68">
+        <com.dsc.nana.domain.form.ElementStyle id="69">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="70">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>200</width>
+          <foregroundColor>0</foregroundColor>
+          <backgroundColor>16777215</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>110</coordinateX>
+          <coordinateY>140</coordinateY>
+          <alignType id="71">
+            <value>LEFT</value>
+          </alignType>
+          <rwdRowIndex>0</rwdRowIndex>
+          <rwdColumnIndex>0</rwdColumnIndex>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint>單據日期</hint>
+      <id>sfdadocdt</id>
+      <multiZhMap id="72"/>
+      <name>sfdadocdt</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>0</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="73"/>
+    </com.dsc.nana.domain.form.InputElementDefinition>
+    <com.dsc.nana.domain.form.OutputElementDefinition id="74">
+      <length>0</length>
+      <textValue>發退料類別</textValue>
+      <dataType id="75">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;color:#;text-align:left;width:100px;font-size:12px;background-color:#ffffff;left:450px;top:60px;</cssStyle>
+      <cssDevice reference="8"/>
+      <elementStyles class="list" id="76">
+        <com.dsc.nana.domain.form.ElementStyle id="77">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="78">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>100</width>
+          <foregroundColor>0</foregroundColor>
+          <backgroundColor>16777215</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>450</coordinateX>
+          <coordinateY>60</coordinateY>
+          <alignType reference="46"/>
+          <rwdRowIndex>0</rwdRowIndex>
+          <rwdColumnIndex>0</rwdColumnIndex>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint>label:發退料類別</hint>
+      <id>lbl_sfda002</id>
+      <multiZhMap id="79">
+        <entry>
+          <locale reference="26"/>
+          <com.dsc.nana.domain.form.MulitZhEntity id="80">
+            <ZhLocale reference="26"/>
+            <ZhPresentation></ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+        <entry>
+          <locale reference="28"/>
+          <com.dsc.nana.domain.form.MulitZhEntity id="81">
+            <ZhLocale reference="28"/>
+            <ZhPresentation></ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+        <entry>
+          <locale reference="30"/>
+          <com.dsc.nana.domain.form.MulitZhEntity id="82">
+            <ZhLocale reference="30"/>
+            <ZhPresentation></ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+        <entry>
+          <locale reference="32"/>
+          <com.dsc.nana.domain.form.MulitZhEntity id="83">
+            <ZhLocale reference="32"/>
+            <ZhPresentation></ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+        <entry>
+          <locale reference="34"/>
+          <com.dsc.nana.domain.form.MulitZhEntity id="84">
+            <ZhLocale reference="34"/>
+            <ZhPresentation></ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+        <entry>
+          <locale reference="14"/>
+          <com.dsc.nana.domain.form.MulitZhEntity id="85">
+            <ZhLocale reference="14"/>
+            <ZhPresentation>发退料类别</ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+        <entry>
+          <locale reference="16"/>
+          <com.dsc.nana.domain.form.MulitZhEntity id="86">
+            <ZhLocale reference="16"/>
+            <ZhPresentation>發退料類別</ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+      </multiZhMap>
+      <name>lbl_sfda002</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>-1</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="87"/>
+    </com.dsc.nana.domain.form.OutputElementDefinition>
+    <com.dsc.nana.domain.form.InputElementDefinition id="88">
+      <controlType id="89">
+        <value>INPUT_TYPE</value>
+      </controlType>
+      <isRequired>false</isRequired>
+      <isValidateDataType>false</isValidateDataType>
+      <isValidateDataLength>false</isValidateDataLength>
+      <isValidateDataRequire>false</isValidateDataRequire>
+      <participantDefine id="90">
+        <value>NORMAL</value>
+      </participantDefine>
+      <isReplaceThousandths>false</isReplaceThousandths>
+      <isThousandths>false</isThousandths>
+      <isCustomValidation>false</isCustomValidation>
+      <length>0</length>
+      <dataType id="91">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;color:#;text-align:left;width:100px;font-size:12px;background-color:#ffffff;left:550px;top:60px;</cssStyle>
+      <cssDevice reference="8"/>
+      <elementStyles class="list" id="92">
+        <com.dsc.nana.domain.form.ElementStyle id="93">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="94">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>100</width>
+          <foregroundColor>0</foregroundColor>
+          <backgroundColor>16777215</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>550</coordinateX>
+          <coordinateY>60</coordinateY>
+          <alignType reference="46"/>
+          <rwdRowIndex>0</rwdRowIndex>
+          <rwdColumnIndex>0</rwdColumnIndex>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint>發退料類別</hint>
+      <id>sfda002</id>
+      <multiZhMap id="95"/>
+      <name>sfda002</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>0</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="96"/>
+    </com.dsc.nana.domain.form.InputElementDefinition>
+    <com.dsc.nana.domain.form.OutputElementDefinition id="97">
+      <length>0</length>
+      <textValue>生產部門</textValue>
+      <dataType id="98">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;color:#;text-align:left;width:100px;font-size:12px;background-color:#ffffff;left:450px;top:140px;</cssStyle>
+      <cssDevice reference="8"/>
+      <elementStyles class="list" id="99">
+        <com.dsc.nana.domain.form.ElementStyle id="100">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="101">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>100</width>
+          <foregroundColor>0</foregroundColor>
+          <backgroundColor>16777215</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>450</coordinateX>
+          <coordinateY>140</coordinateY>
+          <alignType id="102">
+            <value>LEFT</value>
+          </alignType>
+          <rwdRowIndex>0</rwdRowIndex>
+          <rwdColumnIndex>0</rwdColumnIndex>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint>label:生產部門</hint>
+      <id>lbl_sfda003</id>
+      <multiZhMap id="103">
+        <entry>
+          <locale reference="26"/>
+          <com.dsc.nana.domain.form.MulitZhEntity id="104">
+            <ZhLocale reference="26"/>
+            <ZhPresentation></ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+        <entry>
+          <locale reference="28"/>
+          <com.dsc.nana.domain.form.MulitZhEntity id="105">
+            <ZhLocale reference="28"/>
+            <ZhPresentation>生産部門</ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+        <entry>
+          <locale reference="30"/>
+          <com.dsc.nana.domain.form.MulitZhEntity id="106">
+            <ZhLocale reference="30"/>
+            <ZhPresentation>Bộ phận sản xuất</ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+        <entry>
+          <locale reference="32"/>
+          <com.dsc.nana.domain.form.MulitZhEntity id="107">
+            <ZhLocale reference="32"/>
+            <ZhPresentation>Production Dept</ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+        <entry>
+          <locale reference="34"/>
+          <com.dsc.nana.domain.form.MulitZhEntity id="108">
+            <ZhLocale reference="34"/>
+            <ZhPresentation>แผนกผลิต</ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+        <entry>
+          <locale reference="14"/>
+          <com.dsc.nana.domain.form.MulitZhEntity id="109">
+            <ZhLocale reference="14"/>
+            <ZhPresentation>生产部门</ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+        <entry>
+          <locale reference="16"/>
+          <com.dsc.nana.domain.form.MulitZhEntity id="110">
+            <ZhLocale reference="16"/>
+            <ZhPresentation>生產部門</ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+      </multiZhMap>
+      <name>lbl_sfda003</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>-1</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="111"/>
+    </com.dsc.nana.domain.form.OutputElementDefinition>
+    <com.dsc.nana.domain.form.InputElementDefinition id="112">
+      <controlType id="113">
+        <value>INPUT_TYPE</value>
+      </controlType>
+      <isRequired>false</isRequired>
+      <isValidateDataType>false</isValidateDataType>
+      <isValidateDataLength>false</isValidateDataLength>
+      <isValidateDataRequire>false</isValidateDataRequire>
+      <participantDefine id="114">
+        <value>NORMAL</value>
+      </participantDefine>
+      <isReplaceThousandths>false</isReplaceThousandths>
+      <isThousandths>false</isThousandths>
+      <isCustomValidation>false</isCustomValidation>
+      <length>0</length>
+      <dataType id="115">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;text-align:left;color:#;width:100px;font-size:12px;background-color:#ffffff;left:550px;top:140px;</cssStyle>
+      <cssDevice reference="8"/>
+      <elementStyles class="list" id="116">
+        <com.dsc.nana.domain.form.ElementStyle id="117">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="118">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>100</width>
+          <foregroundColor>0</foregroundColor>
+          <backgroundColor>16777215</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>550</coordinateX>
+          <coordinateY>140</coordinateY>
+          <alignType id="119">
+            <value>LEFT</value>
+          </alignType>
+          <rwdRowIndex>0</rwdRowIndex>
+          <rwdColumnIndex>0</rwdColumnIndex>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint>生產部門</hint>
+      <id>sfda003</id>
+      <multiZhMap id="120"/>
+      <name>sfda003</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>0</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="121"/>
+    </com.dsc.nana.domain.form.InputElementDefinition>
+    <com.dsc.nana.domain.form.InputElementDefinition id="122">
+      <controlType id="123">
+        <value>INPUT_TYPE</value>
+      </controlType>
+      <isRequired>false</isRequired>
+      <isValidateDataType>false</isValidateDataType>
+      <isValidateDataLength>false</isValidateDataLength>
+      <isValidateDataRequire>false</isValidateDataRequire>
+      <participantDefine id="124">
+        <value>NORMAL</value>
+      </participantDefine>
+      <isReplaceThousandths>false</isReplaceThousandths>
+      <isThousandths>false</isThousandths>
+      <isCustomValidation>false</isCustomValidation>
+      <length>0</length>
+      <dataType id="125">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;text-align:left;color:#;width:130px;font-size:12px;background-color:#ffffff;left:660px;top:140px;</cssStyle>
+      <cssDevice reference="8"/>
+      <elementStyles class="list" id="126">
+        <com.dsc.nana.domain.form.ElementStyle id="127">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="128">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>130</width>
+          <foregroundColor>0</foregroundColor>
+          <backgroundColor>16777215</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>660</coordinateX>
+          <coordinateY>140</coordinateY>
+          <alignType id="129">
+            <value>LEFT</value>
+          </alignType>
+          <rwdRowIndex>0</rwdRowIndex>
+          <rwdColumnIndex>0</rwdColumnIndex>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint>ref:生產部門</hint>
+      <id>sfda003_desc</id>
+      <multiZhMap id="130"/>
+      <name>sfda003_desc</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>0</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="131"/>
+    </com.dsc.nana.domain.form.InputElementDefinition>
+    <com.dsc.nana.domain.form.OutputElementDefinition id="132">
+      <length>0</length>
+      <textValue>申請人</textValue>
+      <dataType id="133">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;color:#;text-align:left;width:100px;font-size:12px;background-color:#ffffff;left:450px;top:100px;</cssStyle>
+      <cssDevice reference="8"/>
+      <elementStyles class="list" id="134">
+        <com.dsc.nana.domain.form.ElementStyle id="135">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="136">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>100</width>
+          <foregroundColor>0</foregroundColor>
+          <backgroundColor>16777215</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>450</coordinateX>
+          <coordinateY>100</coordinateY>
+          <alignType id="137">
+            <value>LEFT</value>
+          </alignType>
+          <rwdRowIndex>0</rwdRowIndex>
+          <rwdColumnIndex>0</rwdColumnIndex>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint>label:申請人</hint>
+      <id>lbl_sfda004</id>
+      <multiZhMap id="138">
+        <entry>
+          <locale reference="26"/>
+          <com.dsc.nana.domain.form.MulitZhEntity id="139">
+            <ZhLocale reference="26"/>
+            <ZhPresentation></ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+        <entry>
+          <locale reference="28"/>
+          <com.dsc.nana.domain.form.MulitZhEntity id="140">
+            <ZhLocale reference="28"/>
+            <ZhPresentation>申請者</ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+        <entry>
+          <locale reference="30"/>
+          <com.dsc.nana.domain.form.MulitZhEntity id="141">
+            <ZhLocale reference="30"/>
+            <ZhPresentation>Người yêu cầu</ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+        <entry>
+          <locale reference="32"/>
+          <com.dsc.nana.domain.form.MulitZhEntity id="142">
+            <ZhLocale reference="32"/>
+            <ZhPresentation>Applicant</ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+        <entry>
+          <locale reference="34"/>
+          <com.dsc.nana.domain.form.MulitZhEntity id="143">
+            <ZhLocale reference="34"/>
+            <ZhPresentation>ผู้ยื่นเรื่อง</ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+        <entry>
+          <locale reference="14"/>
+          <com.dsc.nana.domain.form.MulitZhEntity id="144">
+            <ZhLocale reference="14"/>
+            <ZhPresentation>申请人</ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+        <entry>
+          <locale reference="16"/>
+          <com.dsc.nana.domain.form.MulitZhEntity id="145">
+            <ZhLocale reference="16"/>
+            <ZhPresentation>申請人</ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+      </multiZhMap>
+      <name>lbl_sfda004</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>-1</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="146"/>
+    </com.dsc.nana.domain.form.OutputElementDefinition>
+    <com.dsc.nana.domain.form.InputElementDefinition id="147">
+      <controlType id="148">
+        <value>INPUT_TYPE</value>
+      </controlType>
+      <isRequired>false</isRequired>
+      <isValidateDataType>false</isValidateDataType>
+      <isValidateDataLength>false</isValidateDataLength>
+      <isValidateDataRequire>false</isValidateDataRequire>
+      <participantDefine id="149">
+        <value>NORMAL</value>
+      </participantDefine>
+      <isReplaceThousandths>false</isReplaceThousandths>
+      <isThousandths>false</isThousandths>
+      <isCustomValidation>false</isCustomValidation>
+      <length>0</length>
+      <dataType id="150">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;text-align:left;color:#;width:100px;font-size:12px;background-color:#ffffff;left:550px;top:100px;</cssStyle>
+      <cssDevice reference="8"/>
+      <elementStyles class="list" id="151">
+        <com.dsc.nana.domain.form.ElementStyle id="152">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="153">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>100</width>
+          <foregroundColor>0</foregroundColor>
+          <backgroundColor>16777215</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>550</coordinateX>
+          <coordinateY>100</coordinateY>
+          <alignType id="154">
+            <value>LEFT</value>
+          </alignType>
+          <rwdRowIndex>0</rwdRowIndex>
+          <rwdColumnIndex>0</rwdColumnIndex>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint>申請人</hint>
+      <id>sfda004</id>
+      <multiZhMap id="155"/>
+      <name>sfda004</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>0</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="156"/>
+    </com.dsc.nana.domain.form.InputElementDefinition>
+    <com.dsc.nana.domain.form.InputElementDefinition id="157">
+      <controlType id="158">
+        <value>INPUT_TYPE</value>
+      </controlType>
+      <isRequired>false</isRequired>
+      <isValidateDataType>false</isValidateDataType>
+      <isValidateDataLength>false</isValidateDataLength>
+      <isValidateDataRequire>false</isValidateDataRequire>
+      <participantDefine id="159">
+        <value>NORMAL</value>
+      </participantDefine>
+      <isReplaceThousandths>false</isReplaceThousandths>
+      <isThousandths>false</isThousandths>
+      <isCustomValidation>false</isCustomValidation>
+      <length>0</length>
+      <dataType id="160">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;color:#;text-align:left;width:130px;font-size:12px;background-color:#ffffff;left:660px;top:100px;</cssStyle>
+      <cssDevice reference="8"/>
+      <elementStyles class="list" id="161">
+        <com.dsc.nana.domain.form.ElementStyle id="162">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="163">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>130</width>
+          <foregroundColor>0</foregroundColor>
+          <backgroundColor>16777215</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>660</coordinateX>
+          <coordinateY>100</coordinateY>
+          <alignType reference="46"/>
+          <rwdRowIndex>0</rwdRowIndex>
+          <rwdColumnIndex>0</rwdColumnIndex>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint>ref:申請人</hint>
+      <id>sfda004_desc</id>
+      <multiZhMap id="164"/>
+      <name>sfda004_desc</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>0</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="165"/>
+    </com.dsc.nana.domain.form.InputElementDefinition>
+    <com.dsc.nana.domain.form.InputElementDefinition id="166">
+      <controlType id="167">
+        <value>INPUT_TYPE</value>
+      </controlType>
+      <isRequired>false</isRequired>
+      <isValidateDataType>false</isValidateDataType>
+      <isValidateDataLength>false</isValidateDataLength>
+      <isValidateDataRequire>false</isValidateDataRequire>
+      <participantDefine id="168">
+        <value>NORMAL</value>
+      </participantDefine>
+      <isReplaceThousandths>false</isReplaceThousandths>
+      <isThousandths>false</isThousandths>
+      <isCustomValidation>false</isCustomValidation>
+      <length>0</length>
+      <dataType id="169">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;text-align:left;color:#;width:200px;font-size:12px;background-color:#ffffff;left:110px;top:100px;</cssStyle>
+      <cssDevice reference="8"/>
+      <elementStyles class="list" id="170">
+        <com.dsc.nana.domain.form.ElementStyle id="171">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="172">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>200</width>
+          <foregroundColor>0</foregroundColor>
+          <backgroundColor>16777215</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>110</coordinateX>
+          <coordinateY>100</coordinateY>
+          <alignType id="173">
+            <value>LEFT</value>
+          </alignType>
+          <rwdRowIndex>0</rwdRowIndex>
+          <rwdColumnIndex>0</rwdColumnIndex>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <id>oobal004</id>
+      <multiZhMap id="174"/>
+      <name>oobal004</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>0</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="175"/>
+    </com.dsc.nana.domain.form.InputElementDefinition>
+    <com.dsc.nana.domain.form.OutputElementDefinition id="176">
+      <length>0</length>
+      <textValue>發退料套數</textValue>
+      <dataType id="177">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;color:#000000;text-align:center;width:780px;font-size:12;font-style:normal;background-color:#cccccc;left:10px;font-weight:normal;top:180px;</cssStyle>
+      <cssDevice reference="8"/>
+      <description></description>
+      <elementStyles class="list" id="178">
+        <com.dsc.nana.domain.form.ElementStyle id="179">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="180">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>780</width>
+          <foregroundColor>0</foregroundColor>
+          <backgroundColor>13421772</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>10</coordinateX>
+          <coordinateY>180</coordinateY>
+          <alignType reference="12"/>
+          <rwdRowIndex>0</rwdRowIndex>
+          <rwdColumnIndex>0</rwdColumnIndex>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint>label:發退料套數</hint>
+      <id>bpage_1</id>
+      <multiZhMap id="181">
+        <entry>
+          <locale reference="14"/>
+          <com.dsc.nana.domain.form.MulitZhEntity id="182">
+            <ZhLocale reference="14"/>
+            <ZhPresentation>发料套数</ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+        <entry>
+          <locale reference="16"/>
+          <com.dsc.nana.domain.form.MulitZhEntity id="183">
+            <ZhLocale reference="16"/>
+            <ZhPresentation>發料套數</ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+      </multiZhMap>
+      <name>bpage_1</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>-1</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="184"/>
+    </com.dsc.nana.domain.form.OutputElementDefinition>
+    <com.dsc.nana.domain.form.ListElementDefinition id="185">
+      <listItems class="list" id="186">
+        <com.dsc.nana.domain.form.ListItem id="187">
+          <itemOrder>0</itemOrder>
+          <id>sfdb001</id>
+          <binding></binding>
+          <elementDefinition class="com.dsc.nana.domain.form.InputElementDefinition" id="188">
+            <controlType id="189">
+              <value>INPUT_TYPE</value>
+            </controlType>
+            <isRequired>false</isRequired>
+            <isValidateDataType>false</isValidateDataType>
+            <isValidateDataLength>false</isValidateDataLength>
+            <isValidateDataRequire>false</isValidateDataRequire>
+            <participantDefine id="190">
+              <value>NORMAL</value>
+            </participantDefine>
+            <isReplaceThousandths>false</isReplaceThousandths>
+            <isThousandths>false</isThousandths>
+            <isCustomValidation>false</isCustomValidation>
+            <length>0</length>
+            <dataType id="191">
+              <value>0</value>
+            </dataType>
+            <isHideLabel>false</isHideLabel>
+            <cssStyle>POSITION: absolute;FONT-SIZE:11;</cssStyle>
+            <cssDevice id="192">
+              <value>0</value>
+            </cssDevice>
+            <id>sfdb001</id>
+            <name>sfdb001</name>
+            <navindex>0</navindex>
+            <precision>0</precision>
+            <scale>0</scale>
+            <persistentType>0</persistentType>
+            <doValidationOnSubmit>false</doValidationOnSubmit>
+          </elementDefinition>
+          <caption>工單單號</caption>
+          <multiZhMap id="193">
+            <entry>
+              <locale reference="28"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="194">
+                <ZhLocale reference="28"/>
+                <ZhPresentation>作業指示書番号</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="26"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="195">
+                <ZhLocale reference="26"/>
+                <ZhPresentation></ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="30"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="196">
+                <ZhLocale reference="30"/>
+                <ZhPresentation>MS đơn công lệnh</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="34"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="197">
+                <ZhLocale reference="34"/>
+                <ZhPresentation>รหัสใบงาน</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="32"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="198">
+                <ZhLocale reference="32"/>
+                <ZhPresentation>WO No.</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="14"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="199">
+                <ZhLocale reference="14"/>
+                <ZhPresentation>工单单号</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="16"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="200">
+                <ZhLocale reference="16"/>
+                <ZhPresentation>工單單號</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+          </multiZhMap>
+        </com.dsc.nana.domain.form.ListItem>
+        <com.dsc.nana.domain.form.ListItem id="201">
+          <itemOrder>0</itemOrder>
+          <id>sfaa010</id>
+          <binding></binding>
+          <elementDefinition class="com.dsc.nana.domain.form.InputElementDefinition" id="202">
+            <controlType id="203">
+              <value>INPUT_TYPE</value>
+            </controlType>
+            <isRequired>false</isRequired>
+            <isValidateDataType>false</isValidateDataType>
+            <isValidateDataLength>false</isValidateDataLength>
+            <isValidateDataRequire>false</isValidateDataRequire>
+            <participantDefine id="204">
+              <value>NORMAL</value>
+            </participantDefine>
+            <isReplaceThousandths>false</isReplaceThousandths>
+            <isThousandths>false</isThousandths>
+            <isCustomValidation>false</isCustomValidation>
+            <length>0</length>
+            <dataType id="205">
+              <value>0</value>
+            </dataType>
+            <isHideLabel>false</isHideLabel>
+            <cssStyle>POSITION: absolute;FONT-SIZE:11;</cssStyle>
+            <cssDevice id="206">
+              <value>0</value>
+            </cssDevice>
+            <id>sfaa010</id>
+            <name>sfaa010</name>
+            <navindex>0</navindex>
+            <precision>0</precision>
+            <scale>0</scale>
+            <persistentType>0</persistentType>
+            <doValidationOnSubmit>false</doValidationOnSubmit>
+          </elementDefinition>
+          <caption>生產料號</caption>
+          <multiZhMap id="207">
+            <entry>
+              <locale reference="28"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="208">
+                <ZhLocale reference="28"/>
+                <ZhPresentation>生産材料番号</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="26"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="209">
+                <ZhLocale reference="26"/>
+                <ZhPresentation></ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="30"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="210">
+                <ZhLocale reference="30"/>
+                <ZhPresentation>Mã linh kiện</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="34"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="211">
+                <ZhLocale reference="34"/>
+                <ZhPresentation>หมายเลขวัสดุที่ผลิต</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="32"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="212">
+                <ZhLocale reference="32"/>
+                <ZhPresentation>Production Item</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="14"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="213">
+                <ZhLocale reference="14"/>
+                <ZhPresentation>生产料号</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="16"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="214">
+                <ZhLocale reference="16"/>
+                <ZhPresentation>生產料號</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+          </multiZhMap>
+        </com.dsc.nana.domain.form.ListItem>
+        <com.dsc.nana.domain.form.ListItem id="215">
+          <itemOrder>0</itemOrder>
+          <id>sfaa010_desc</id>
+          <binding></binding>
+          <elementDefinition class="com.dsc.nana.domain.form.InputElementDefinition" id="216">
+            <controlType id="217">
+              <value>INPUT_TYPE</value>
+            </controlType>
+            <isRequired>false</isRequired>
+            <isValidateDataType>false</isValidateDataType>
+            <isValidateDataLength>false</isValidateDataLength>
+            <isValidateDataRequire>false</isValidateDataRequire>
+            <participantDefine id="218">
+              <value>NORMAL</value>
+            </participantDefine>
+            <isReplaceThousandths>false</isReplaceThousandths>
+            <isThousandths>false</isThousandths>
+            <isCustomValidation>false</isCustomValidation>
+            <length>0</length>
+            <dataType id="219">
+              <value>0</value>
+            </dataType>
+            <isHideLabel>false</isHideLabel>
+            <cssStyle>POSITION: absolute;FONT-SIZE:11;</cssStyle>
+            <cssDevice id="220">
+              <value>0</value>
+            </cssDevice>
+            <id>sfaa010_desc</id>
+            <name>sfaa010_desc</name>
+            <navindex>0</navindex>
+            <precision>0</precision>
+            <scale>0</scale>
+            <persistentType>0</persistentType>
+            <doValidationOnSubmit>false</doValidationOnSubmit>
+          </elementDefinition>
+          <caption>品名</caption>
+          <multiZhMap id="221">
+            <entry>
+              <locale reference="28"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="222">
+                <ZhLocale reference="28"/>
+                <ZhPresentation>品名</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="26"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="223">
+                <ZhLocale reference="26"/>
+                <ZhPresentation>물품 명</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="30"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="224">
+                <ZhLocale reference="30"/>
+                <ZhPresentation>Tên sản phẩm</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="34"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="225">
+                <ZhLocale reference="34"/>
+                <ZhPresentation>ชื่อผลิตภัณฑ์</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="32"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="226">
+                <ZhLocale reference="32"/>
+                <ZhPresentation>Item Name</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="14"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="227">
+                <ZhLocale reference="14"/>
+                <ZhPresentation>品名</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="16"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="228">
+                <ZhLocale reference="16"/>
+                <ZhPresentation>品名</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+          </multiZhMap>
+        </com.dsc.nana.domain.form.ListItem>
+        <com.dsc.nana.domain.form.ListItem id="229">
+          <itemOrder>0</itemOrder>
+          <id>sfaa010_desc2</id>
+          <binding></binding>
+          <elementDefinition class="com.dsc.nana.domain.form.InputElementDefinition" id="230">
+            <controlType id="231">
+              <value>INPUT_TYPE</value>
+            </controlType>
+            <isRequired>false</isRequired>
+            <isValidateDataType>false</isValidateDataType>
+            <isValidateDataLength>false</isValidateDataLength>
+            <isValidateDataRequire>false</isValidateDataRequire>
+            <participantDefine id="232">
+              <value>NORMAL</value>
+            </participantDefine>
+            <isReplaceThousandths>false</isReplaceThousandths>
+            <isThousandths>false</isThousandths>
+            <isCustomValidation>false</isCustomValidation>
+            <length>0</length>
+            <dataType id="233">
+              <value>0</value>
+            </dataType>
+            <isHideLabel>false</isHideLabel>
+            <cssStyle>POSITION: absolute;FONT-SIZE:11;</cssStyle>
+            <cssDevice id="234">
+              <value>0</value>
+            </cssDevice>
+            <id>sfaa010_desc2</id>
+            <name>sfaa010_desc2</name>
+            <navindex>0</navindex>
+            <precision>0</precision>
+            <scale>0</scale>
+            <persistentType>0</persistentType>
+            <doValidationOnSubmit>false</doValidationOnSubmit>
+          </elementDefinition>
+          <caption>規格</caption>
+          <multiZhMap id="235">
+            <entry>
+              <locale reference="28"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="236">
+                <ZhLocale reference="28"/>
+                <ZhPresentation>規格</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="26"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="237">
+                <ZhLocale reference="26"/>
+                <ZhPresentation>규격</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="30"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="238">
+                <ZhLocale reference="30"/>
+                <ZhPresentation>Quy cách</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="34"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="239">
+                <ZhLocale reference="34"/>
+                <ZhPresentation>คุณสมบัติ</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="32"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="240">
+                <ZhLocale reference="32"/>
+                <ZhPresentation>Specifiaction</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="14"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="241">
+                <ZhLocale reference="14"/>
+                <ZhPresentation>规格</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="16"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="242">
+                <ZhLocale reference="16"/>
+                <ZhPresentation>規格</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+          </multiZhMap>
+        </com.dsc.nana.domain.form.ListItem>
+        <com.dsc.nana.domain.form.ListItem id="243">
+          <itemOrder>0</itemOrder>
+          <id>sfaa012</id>
+          <binding></binding>
+          <elementDefinition class="com.dsc.nana.domain.form.InputElementDefinition" id="244">
+            <controlType id="245">
+              <value>INPUT_TYPE</value>
+            </controlType>
+            <isRequired>false</isRequired>
+            <isValidateDataType>false</isValidateDataType>
+            <isValidateDataLength>false</isValidateDataLength>
+            <isValidateDataRequire>false</isValidateDataRequire>
+            <participantDefine id="246">
+              <value>NORMAL</value>
+            </participantDefine>
+            <isReplaceThousandths>false</isReplaceThousandths>
+            <isThousandths>false</isThousandths>
+            <isCustomValidation>false</isCustomValidation>
+            <length>0</length>
+            <dataType id="247">
+              <value>0</value>
+            </dataType>
+            <isHideLabel>false</isHideLabel>
+            <cssStyle>POSITION: absolute;FONT-SIZE:11;</cssStyle>
+            <cssDevice id="248">
+              <value>0</value>
+            </cssDevice>
+            <id>sfaa012</id>
+            <name>sfaa012</name>
+            <navindex>0</navindex>
+            <precision>0</precision>
+            <scale>0</scale>
+            <persistentType>0</persistentType>
+            <doValidationOnSubmit>false</doValidationOnSubmit>
+          </elementDefinition>
+          <caption>生產數量</caption>
+          <multiZhMap id="249">
+            <entry>
+              <locale reference="28"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="250">
+                <ZhLocale reference="28"/>
+                <ZhPresentation>生産数量</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="26"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="251">
+                <ZhLocale reference="26"/>
+                <ZhPresentation></ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="30"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="252">
+                <ZhLocale reference="30"/>
+                <ZhPresentation>Số lượng sản xuất</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="34"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="253">
+                <ZhLocale reference="34"/>
+                <ZhPresentation>ปริมาณการผลิต</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="32"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="254">
+                <ZhLocale reference="32"/>
+                <ZhPresentation>Production Qty</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="14"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="255">
+                <ZhLocale reference="14"/>
+                <ZhPresentation>生产数量</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="16"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="256">
+                <ZhLocale reference="16"/>
+                <ZhPresentation>生產數量</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+          </multiZhMap>
+        </com.dsc.nana.domain.form.ListItem>
+        <com.dsc.nana.domain.form.ListItem id="257">
+          <itemOrder>0</itemOrder>
+          <id>sfaa013</id>
+          <binding></binding>
+          <elementDefinition class="com.dsc.nana.domain.form.InputElementDefinition" id="258">
+            <controlType id="259">
+              <value>INPUT_TYPE</value>
+            </controlType>
+            <isRequired>false</isRequired>
+            <isValidateDataType>false</isValidateDataType>
+            <isValidateDataLength>false</isValidateDataLength>
+            <isValidateDataRequire>false</isValidateDataRequire>
+            <participantDefine id="260">
+              <value>NORMAL</value>
+            </participantDefine>
+            <isReplaceThousandths>false</isReplaceThousandths>
+            <isThousandths>false</isThousandths>
+            <isCustomValidation>false</isCustomValidation>
+            <length>0</length>
+            <dataType id="261">
+              <value>0</value>
+            </dataType>
+            <isHideLabel>false</isHideLabel>
+            <cssStyle>POSITION: absolute;FONT-SIZE:11;</cssStyle>
+            <cssDevice id="262">
+              <value>0</value>
+            </cssDevice>
+            <id>sfaa013</id>
+            <name>sfaa013</name>
+            <navindex>0</navindex>
+            <precision>0</precision>
+            <scale>0</scale>
+            <persistentType>0</persistentType>
+            <doValidationOnSubmit>false</doValidationOnSubmit>
+          </elementDefinition>
+          <caption>生產單位</caption>
+          <multiZhMap id="263">
+            <entry>
+              <locale reference="28"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="264">
+                <ZhLocale reference="28"/>
+                <ZhPresentation>生産単位</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="26"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="265">
+                <ZhLocale reference="26"/>
+                <ZhPresentation></ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="30"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="266">
+                <ZhLocale reference="30"/>
+                <ZhPresentation>Đơn vị sản xuất</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="34"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="267">
+                <ZhLocale reference="34"/>
+                <ZhPresentation>หน่วยผลิต</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="32"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="268">
+                <ZhLocale reference="32"/>
+                <ZhPresentation>Production Unit</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="14"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="269">
+                <ZhLocale reference="14"/>
+                <ZhPresentation>生产单位</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="16"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="270">
+                <ZhLocale reference="16"/>
+                <ZhPresentation>生產單位</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+          </multiZhMap>
+        </com.dsc.nana.domain.form.ListItem>
+        <com.dsc.nana.domain.form.ListItem id="271">
+          <itemOrder>0</itemOrder>
+          <id>sfdb006</id>
+          <binding></binding>
+          <elementDefinition class="com.dsc.nana.domain.form.InputElementDefinition" id="272">
+            <controlType id="273">
+              <value>INPUT_TYPE</value>
+            </controlType>
+            <isRequired>false</isRequired>
+            <isValidateDataType>false</isValidateDataType>
+            <isValidateDataLength>false</isValidateDataLength>
+            <isValidateDataRequire>false</isValidateDataRequire>
+            <participantDefine id="274">
+              <value>NORMAL</value>
+            </participantDefine>
+            <isReplaceThousandths>false</isReplaceThousandths>
+            <isThousandths>false</isThousandths>
+            <isCustomValidation>false</isCustomValidation>
+            <length>0</length>
+            <dataType id="275">
+              <value>0</value>
+            </dataType>
+            <isHideLabel>false</isHideLabel>
+            <cssStyle>POSITION: absolute;FONT-SIZE:11;</cssStyle>
+            <cssDevice id="276">
+              <value>0</value>
+            </cssDevice>
+            <id>sfdb006</id>
+            <name>sfdb006</name>
+            <navindex>0</navindex>
+            <precision>0</precision>
+            <scale>0</scale>
+            <persistentType>0</persistentType>
+            <doValidationOnSubmit>false</doValidationOnSubmit>
+          </elementDefinition>
+          <caption>預計套數</caption>
+          <multiZhMap id="277">
+            <entry>
+              <locale reference="28"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="278">
+                <ZhLocale reference="28"/>
+                <ZhPresentation>予定セット数</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="26"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="279">
+                <ZhLocale reference="26"/>
+                <ZhPresentation></ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="30"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="280">
+                <ZhLocale reference="30"/>
+                <ZhPresentation>Số bộ dự tính</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="34"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="281">
+                <ZhLocale reference="34"/>
+                <ZhPresentation></ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="32"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="282">
+                <ZhLocale reference="32"/>
+                <ZhPresentation>Expected Sets</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="14"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="283">
+                <ZhLocale reference="14"/>
+                <ZhPresentation>预计套数</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="16"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="284">
+                <ZhLocale reference="16"/>
+                <ZhPresentation>預計套數</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+          </multiZhMap>
+        </com.dsc.nana.domain.form.ListItem>
+      </listItems>
+      <autoSerialNumber>false</autoSerialNumber>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:200px;color:#;text-align:left;width:780px;font-size:12px;background-color:#ffffff;left:10px;top:220px;</cssStyle>
+      <cssDevice reference="8"/>
+      <elementStyles class="list" id="285">
+        <com.dsc.nana.domain.form.ElementStyle id="286">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="287">
+            <value>0</value>
+          </device>
+          <height>200</height>
+          <width>780</width>
+          <foregroundColor>0</foregroundColor>
+          <backgroundColor>16777215</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>10</coordinateX>
+          <coordinateY>220</coordinateY>
+          <alignType id="288">
+            <value>LEFT</value>
+          </alignType>
+          <rwdRowIndex>0</rwdRowIndex>
+          <rwdColumnIndex>0</rwdColumnIndex>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <id>s_detail1</id>
+      <multiZhMap id="289"/>
+      <name>s_detail1</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>0</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="290"/>
+    </com.dsc.nana.domain.form.ListElementDefinition>
+    <com.dsc.nana.domain.form.OutputElementDefinition id="291">
+      <length>0</length>
+      <textValue>發退料需求</textValue>
+      <dataType id="292">
+        <value>0</value>
+      </dataType>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:20px;color:#000000;text-align:center;width:780px;font-size:12;font-style:normal;background-color:#cccccc;left:10px;font-weight:normal;top:440px;</cssStyle>
+      <cssDevice reference="8"/>
+      <description></description>
+      <elementStyles class="list" id="293">
+        <com.dsc.nana.domain.form.ElementStyle id="294">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="295">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>780</width>
+          <foregroundColor>0</foregroundColor>
+          <backgroundColor>13421772</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>10</coordinateX>
+          <coordinateY>440</coordinateY>
+          <alignType reference="12"/>
+          <rwdRowIndex>0</rwdRowIndex>
+          <rwdColumnIndex>0</rwdColumnIndex>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <hint>label:發退料需求</hint>
+      <id>page_3</id>
+      <multiZhMap id="296">
+        <entry>
+          <locale reference="14"/>
+          <com.dsc.nana.domain.form.MulitZhEntity id="297">
+            <ZhLocale reference="14"/>
+            <ZhPresentation>发料需求</ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+        <entry>
+          <locale reference="16"/>
+          <com.dsc.nana.domain.form.MulitZhEntity id="298">
+            <ZhLocale reference="16"/>
+            <ZhPresentation>發料需求</ZhPresentation>
+          </com.dsc.nana.domain.form.MulitZhEntity>
+        </entry>
+      </multiZhMap>
+      <name>page_3</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>-1</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="299"/>
+    </com.dsc.nana.domain.form.OutputElementDefinition>
+    <com.dsc.nana.domain.form.ListElementDefinition id="300">
+      <listItems class="list" id="301">
+        <com.dsc.nana.domain.form.ListItem id="302">
+          <itemOrder>0</itemOrder>
+          <id>sfdcseq</id>
+          <binding></binding>
+          <elementDefinition class="com.dsc.nana.domain.form.InputElementDefinition" id="303">
+            <controlType id="304">
+              <value>INPUT_TYPE</value>
+            </controlType>
+            <isRequired>false</isRequired>
+            <isValidateDataType>false</isValidateDataType>
+            <isValidateDataLength>false</isValidateDataLength>
+            <isValidateDataRequire>false</isValidateDataRequire>
+            <participantDefine id="305">
+              <value>NORMAL</value>
+            </participantDefine>
+            <isReplaceThousandths>false</isReplaceThousandths>
+            <isThousandths>false</isThousandths>
+            <isCustomValidation>false</isCustomValidation>
+            <length>0</length>
+            <dataType id="306">
+              <value>0</value>
+            </dataType>
+            <isHideLabel>false</isHideLabel>
+            <cssStyle>POSITION: absolute;FONT-SIZE:11;</cssStyle>
+            <cssDevice id="307">
+              <value>0</value>
+            </cssDevice>
+            <id>sfdcseq</id>
+            <name>sfdcseq</name>
+            <navindex>0</navindex>
+            <precision>0</precision>
+            <scale>0</scale>
+            <persistentType>0</persistentType>
+            <doValidationOnSubmit>false</doValidationOnSubmit>
+          </elementDefinition>
+          <caption>項次</caption>
+          <multiZhMap id="308">
+            <entry>
+              <locale reference="28"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="309">
+                <ZhLocale reference="28"/>
+                <ZhPresentation>項目</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="26"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="310">
+                <ZhLocale reference="26"/>
+                <ZhPresentation>항목</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="30"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="311">
+                <ZhLocale reference="30"/>
+                <ZhPresentation>Hạng mục</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="34"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="312">
+                <ZhLocale reference="34"/>
+                <ZhPresentation>ลำดับรายการ</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="32"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="313">
+                <ZhLocale reference="32"/>
+                <ZhPresentation>Line No.</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="14"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="314">
+                <ZhLocale reference="14"/>
+                <ZhPresentation>项次</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="16"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="315">
+                <ZhLocale reference="16"/>
+                <ZhPresentation>項次</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+          </multiZhMap>
+        </com.dsc.nana.domain.form.ListItem>
+        <com.dsc.nana.domain.form.ListItem id="316">
+          <itemOrder>0</itemOrder>
+          <id>sfdc001</id>
+          <binding></binding>
+          <elementDefinition class="com.dsc.nana.domain.form.InputElementDefinition" id="317">
+            <controlType id="318">
+              <value>INPUT_TYPE</value>
+            </controlType>
+            <isRequired>false</isRequired>
+            <isValidateDataType>false</isValidateDataType>
+            <isValidateDataLength>false</isValidateDataLength>
+            <isValidateDataRequire>false</isValidateDataRequire>
+            <participantDefine id="319">
+              <value>NORMAL</value>
+            </participantDefine>
+            <isReplaceThousandths>false</isReplaceThousandths>
+            <isThousandths>false</isThousandths>
+            <isCustomValidation>false</isCustomValidation>
+            <length>0</length>
+            <dataType id="320">
+              <value>0</value>
+            </dataType>
+            <isHideLabel>false</isHideLabel>
+            <cssStyle>POSITION: absolute;FONT-SIZE:11;</cssStyle>
+            <cssDevice id="321">
+              <value>0</value>
+            </cssDevice>
+            <id>sfdc001</id>
+            <name>sfdc001</name>
+            <navindex>0</navindex>
+            <precision>0</precision>
+            <scale>0</scale>
+            <persistentType>0</persistentType>
+            <doValidationOnSubmit>false</doValidationOnSubmit>
+          </elementDefinition>
+          <caption>工單單號</caption>
+          <multiZhMap id="322">
+            <entry>
+              <locale reference="28"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="323">
+                <ZhLocale reference="28"/>
+                <ZhPresentation>作業指示書番号</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="26"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="324">
+                <ZhLocale reference="26"/>
+                <ZhPresentation></ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="30"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="325">
+                <ZhLocale reference="30"/>
+                <ZhPresentation>MS đơn công lệnh</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="34"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="326">
+                <ZhLocale reference="34"/>
+                <ZhPresentation>รหัสใบงาน</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="32"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="327">
+                <ZhLocale reference="32"/>
+                <ZhPresentation>WO No.</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="14"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="328">
+                <ZhLocale reference="14"/>
+                <ZhPresentation>工单单号</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="16"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="329">
+                <ZhLocale reference="16"/>
+                <ZhPresentation>工單單號</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+          </multiZhMap>
+        </com.dsc.nana.domain.form.ListItem>
+        <com.dsc.nana.domain.form.ListItem id="330">
+          <itemOrder>0</itemOrder>
+          <id>sfdc002</id>
+          <binding></binding>
+          <elementDefinition class="com.dsc.nana.domain.form.InputElementDefinition" id="331">
+            <controlType id="332">
+              <value>INPUT_TYPE</value>
+            </controlType>
+            <isRequired>false</isRequired>
+            <isValidateDataType>false</isValidateDataType>
+            <isValidateDataLength>false</isValidateDataLength>
+            <isValidateDataRequire>false</isValidateDataRequire>
+            <participantDefine id="333">
+              <value>NORMAL</value>
+            </participantDefine>
+            <isReplaceThousandths>false</isReplaceThousandths>
+            <isThousandths>false</isThousandths>
+            <isCustomValidation>false</isCustomValidation>
+            <length>0</length>
+            <dataType id="334">
+              <value>0</value>
+            </dataType>
+            <isHideLabel>false</isHideLabel>
+            <cssStyle>POSITION: absolute;FONT-SIZE:11;</cssStyle>
+            <cssDevice id="335">
+              <value>0</value>
+            </cssDevice>
+            <id>sfdc002</id>
+            <name>sfdc002</name>
+            <navindex>0</navindex>
+            <precision>0</precision>
+            <scale>0</scale>
+            <persistentType>0</persistentType>
+            <doValidationOnSubmit>false</doValidationOnSubmit>
+          </elementDefinition>
+          <caption>工單項次</caption>
+          <multiZhMap id="336">
+            <entry>
+              <locale reference="28"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="337">
+                <ZhLocale reference="28"/>
+                <ZhPresentation></ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="26"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="338">
+                <ZhLocale reference="26"/>
+                <ZhPresentation></ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="30"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="339">
+                <ZhLocale reference="30"/>
+                <ZhPresentation></ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="34"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="340">
+                <ZhLocale reference="34"/>
+                <ZhPresentation></ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="32"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="341">
+                <ZhLocale reference="32"/>
+                <ZhPresentation></ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="14"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="342">
+                <ZhLocale reference="14"/>
+                <ZhPresentation>工单项次</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="16"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="343">
+                <ZhLocale reference="16"/>
+                <ZhPresentation>工單項次</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+          </multiZhMap>
+        </com.dsc.nana.domain.form.ListItem>
+        <com.dsc.nana.domain.form.ListItem id="344">
+          <itemOrder>0</itemOrder>
+          <id>sfdc003</id>
+          <binding></binding>
+          <elementDefinition class="com.dsc.nana.domain.form.InputElementDefinition" id="345">
+            <controlType id="346">
+              <value>INPUT_TYPE</value>
+            </controlType>
+            <isRequired>false</isRequired>
+            <isValidateDataType>false</isValidateDataType>
+            <isValidateDataLength>false</isValidateDataLength>
+            <isValidateDataRequire>false</isValidateDataRequire>
+            <participantDefine id="347">
+              <value>NORMAL</value>
+            </participantDefine>
+            <isReplaceThousandths>false</isReplaceThousandths>
+            <isThousandths>false</isThousandths>
+            <isCustomValidation>false</isCustomValidation>
+            <length>0</length>
+            <dataType id="348">
+              <value>0</value>
+            </dataType>
+            <isHideLabel>false</isHideLabel>
+            <cssStyle>POSITION: absolute;FONT-SIZE:11;</cssStyle>
+            <cssDevice id="349">
+              <value>0</value>
+            </cssDevice>
+            <id>sfdc003</id>
+            <name>sfdc003</name>
+            <navindex>0</navindex>
+            <precision>0</precision>
+            <scale>0</scale>
+            <persistentType>0</persistentType>
+            <doValidationOnSubmit>false</doValidationOnSubmit>
+          </elementDefinition>
+          <caption>工單項序</caption>
+          <multiZhMap id="350">
+            <entry>
+              <locale reference="28"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="351">
+                <ZhLocale reference="28"/>
+                <ZhPresentation></ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="26"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="352">
+                <ZhLocale reference="26"/>
+                <ZhPresentation></ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="30"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="353">
+                <ZhLocale reference="30"/>
+                <ZhPresentation></ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="34"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="354">
+                <ZhLocale reference="34"/>
+                <ZhPresentation></ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="32"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="355">
+                <ZhLocale reference="32"/>
+                <ZhPresentation></ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="14"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="356">
+                <ZhLocale reference="14"/>
+                <ZhPresentation>工单项序</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="16"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="357">
+                <ZhLocale reference="16"/>
+                <ZhPresentation>工單項序</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+          </multiZhMap>
+        </com.dsc.nana.domain.form.ListItem>
+        <com.dsc.nana.domain.form.ListItem id="358">
+          <itemOrder>0</itemOrder>
+          <id>sfdc004</id>
+          <binding></binding>
+          <elementDefinition class="com.dsc.nana.domain.form.InputElementDefinition" id="359">
+            <controlType id="360">
+              <value>INPUT_TYPE</value>
+            </controlType>
+            <isRequired>false</isRequired>
+            <isValidateDataType>false</isValidateDataType>
+            <isValidateDataLength>false</isValidateDataLength>
+            <isValidateDataRequire>false</isValidateDataRequire>
+            <participantDefine id="361">
+              <value>NORMAL</value>
+            </participantDefine>
+            <isReplaceThousandths>false</isReplaceThousandths>
+            <isThousandths>false</isThousandths>
+            <isCustomValidation>false</isCustomValidation>
+            <length>0</length>
+            <dataType id="362">
+              <value>0</value>
+            </dataType>
+            <isHideLabel>false</isHideLabel>
+            <cssStyle>POSITION: absolute;FONT-SIZE:11;</cssStyle>
+            <cssDevice id="363">
+              <value>0</value>
+            </cssDevice>
+            <id>sfdc004</id>
+            <name>sfdc004</name>
+            <navindex>0</navindex>
+            <precision>0</precision>
+            <scale>0</scale>
+            <persistentType>0</persistentType>
+            <doValidationOnSubmit>false</doValidationOnSubmit>
+          </elementDefinition>
+          <caption>需求料號</caption>
+          <multiZhMap id="364">
+            <entry>
+              <locale reference="28"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="365">
+                <ZhLocale reference="28"/>
+                <ZhPresentation>要求材料番号</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="26"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="366">
+                <ZhLocale reference="26"/>
+                <ZhPresentation></ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="30"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="367">
+                <ZhLocale reference="30"/>
+                <ZhPresentation>Mã linh kiện yêu cầu</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="34"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="368">
+                <ZhLocale reference="34"/>
+                <ZhPresentation>หมายเลขวัสดุที่ต้องการ</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="32"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="369">
+                <ZhLocale reference="32"/>
+                <ZhPresentation>Requirement Item No.</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="14"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="370">
+                <ZhLocale reference="14"/>
+                <ZhPresentation>需求料号</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="16"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="371">
+                <ZhLocale reference="16"/>
+                <ZhPresentation>需求料號</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+          </multiZhMap>
+        </com.dsc.nana.domain.form.ListItem>
+        <com.dsc.nana.domain.form.ListItem id="372">
+          <itemOrder>0</itemOrder>
+          <id>sfdc004_desc</id>
+          <binding></binding>
+          <elementDefinition class="com.dsc.nana.domain.form.InputElementDefinition" id="373">
+            <controlType id="374">
+              <value>INPUT_TYPE</value>
+            </controlType>
+            <isRequired>false</isRequired>
+            <isValidateDataType>false</isValidateDataType>
+            <isValidateDataLength>false</isValidateDataLength>
+            <isValidateDataRequire>false</isValidateDataRequire>
+            <participantDefine id="375">
+              <value>NORMAL</value>
+            </participantDefine>
+            <isReplaceThousandths>false</isReplaceThousandths>
+            <isThousandths>false</isThousandths>
+            <isCustomValidation>false</isCustomValidation>
+            <length>0</length>
+            <dataType id="376">
+              <value>0</value>
+            </dataType>
+            <isHideLabel>false</isHideLabel>
+            <cssStyle>POSITION: absolute;FONT-SIZE:11;</cssStyle>
+            <cssDevice id="377">
+              <value>0</value>
+            </cssDevice>
+            <id>sfdc004_desc</id>
+            <name>sfdc004_desc</name>
+            <navindex>0</navindex>
+            <precision>0</precision>
+            <scale>0</scale>
+            <persistentType>0</persistentType>
+            <doValidationOnSubmit>false</doValidationOnSubmit>
+          </elementDefinition>
+          <caption>品名</caption>
+          <multiZhMap id="378">
+            <entry>
+              <locale reference="28"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="379">
+                <ZhLocale reference="28"/>
+                <ZhPresentation>品名</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="26"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="380">
+                <ZhLocale reference="26"/>
+                <ZhPresentation>물품 명</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="30"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="381">
+                <ZhLocale reference="30"/>
+                <ZhPresentation>Tên sản phẩm</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="34"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="382">
+                <ZhLocale reference="34"/>
+                <ZhPresentation>ชื่อผลิตภัณฑ์</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="32"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="383">
+                <ZhLocale reference="32"/>
+                <ZhPresentation>Item Description</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="14"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="384">
+                <ZhLocale reference="14"/>
+                <ZhPresentation>品名</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="16"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="385">
+                <ZhLocale reference="16"/>
+                <ZhPresentation>品名</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+          </multiZhMap>
+        </com.dsc.nana.domain.form.ListItem>
+        <com.dsc.nana.domain.form.ListItem id="386">
+          <itemOrder>0</itemOrder>
+          <id>sfdc004_desc2</id>
+          <binding></binding>
+          <elementDefinition class="com.dsc.nana.domain.form.InputElementDefinition" id="387">
+            <controlType id="388">
+              <value>INPUT_TYPE</value>
+            </controlType>
+            <isRequired>false</isRequired>
+            <isValidateDataType>false</isValidateDataType>
+            <isValidateDataLength>false</isValidateDataLength>
+            <isValidateDataRequire>false</isValidateDataRequire>
+            <participantDefine id="389">
+              <value>NORMAL</value>
+            </participantDefine>
+            <isReplaceThousandths>false</isReplaceThousandths>
+            <isThousandths>false</isThousandths>
+            <isCustomValidation>false</isCustomValidation>
+            <length>0</length>
+            <dataType id="390">
+              <value>0</value>
+            </dataType>
+            <isHideLabel>false</isHideLabel>
+            <cssStyle>POSITION: absolute;FONT-SIZE:11;</cssStyle>
+            <cssDevice id="391">
+              <value>0</value>
+            </cssDevice>
+            <id>sfdc004_desc2</id>
+            <name>sfdc004_desc2</name>
+            <navindex>0</navindex>
+            <precision>0</precision>
+            <scale>0</scale>
+            <persistentType>0</persistentType>
+            <doValidationOnSubmit>false</doValidationOnSubmit>
+          </elementDefinition>
+          <caption>規格</caption>
+          <multiZhMap id="392">
+            <entry>
+              <locale reference="28"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="393">
+                <ZhLocale reference="28"/>
+                <ZhPresentation>規格</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="26"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="394">
+                <ZhLocale reference="26"/>
+                <ZhPresentation>규격</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="30"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="395">
+                <ZhLocale reference="30"/>
+                <ZhPresentation>Quy cách</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="34"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="396">
+                <ZhLocale reference="34"/>
+                <ZhPresentation>คุณสมบัติ</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="32"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="397">
+                <ZhLocale reference="32"/>
+                <ZhPresentation>Specifiaction</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="14"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="398">
+                <ZhLocale reference="14"/>
+                <ZhPresentation>规格</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="16"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="399">
+                <ZhLocale reference="16"/>
+                <ZhPresentation>規格</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+          </multiZhMap>
+        </com.dsc.nana.domain.form.ListItem>
+        <com.dsc.nana.domain.form.ListItem id="400">
+          <itemOrder>0</itemOrder>
+          <id>sfdc006</id>
+          <binding></binding>
+          <elementDefinition class="com.dsc.nana.domain.form.InputElementDefinition" id="401">
+            <controlType id="402">
+              <value>INPUT_TYPE</value>
+            </controlType>
+            <isRequired>false</isRequired>
+            <isValidateDataType>false</isValidateDataType>
+            <isValidateDataLength>false</isValidateDataLength>
+            <isValidateDataRequire>false</isValidateDataRequire>
+            <participantDefine id="403">
+              <value>NORMAL</value>
+            </participantDefine>
+            <isReplaceThousandths>false</isReplaceThousandths>
+            <isThousandths>false</isThousandths>
+            <isCustomValidation>false</isCustomValidation>
+            <length>0</length>
+            <dataType id="404">
+              <value>0</value>
+            </dataType>
+            <isHideLabel>false</isHideLabel>
+            <cssStyle>POSITION: absolute;FONT-SIZE:11;</cssStyle>
+            <cssDevice id="405">
+              <value>0</value>
+            </cssDevice>
+            <id>sfdc006</id>
+            <name>sfdc006</name>
+            <navindex>0</navindex>
+            <precision>0</precision>
+            <scale>0</scale>
+            <persistentType>0</persistentType>
+            <doValidationOnSubmit>false</doValidationOnSubmit>
+          </elementDefinition>
+          <caption>單位</caption>
+          <multiZhMap id="406">
+            <entry>
+              <locale reference="28"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="407">
+                <ZhLocale reference="28"/>
+                <ZhPresentation>単位</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="26"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="408">
+                <ZhLocale reference="26"/>
+                <ZhPresentation>단위</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="30"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="409">
+                <ZhLocale reference="30"/>
+                <ZhPresentation>Đơn vị</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="34"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="410">
+                <ZhLocale reference="34"/>
+                <ZhPresentation>หน่วย</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="32"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="411">
+                <ZhLocale reference="32"/>
+                <ZhPresentation>Unit</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="14"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="412">
+                <ZhLocale reference="14"/>
+                <ZhPresentation>单位</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="16"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="413">
+                <ZhLocale reference="16"/>
+                <ZhPresentation>單位</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+          </multiZhMap>
+        </com.dsc.nana.domain.form.ListItem>
+        <com.dsc.nana.domain.form.ListItem id="414">
+          <itemOrder>0</itemOrder>
+          <id>sfdc006_desc</id>
+          <binding></binding>
+          <elementDefinition class="com.dsc.nana.domain.form.InputElementDefinition" id="415">
+            <controlType id="416">
+              <value>INPUT_TYPE</value>
+            </controlType>
+            <isRequired>false</isRequired>
+            <isValidateDataType>false</isValidateDataType>
+            <isValidateDataLength>false</isValidateDataLength>
+            <isValidateDataRequire>false</isValidateDataRequire>
+            <participantDefine id="417">
+              <value>NORMAL</value>
+            </participantDefine>
+            <isReplaceThousandths>false</isReplaceThousandths>
+            <isThousandths>false</isThousandths>
+            <isCustomValidation>false</isCustomValidation>
+            <length>0</length>
+            <dataType id="418">
+              <value>0</value>
+            </dataType>
+            <isHideLabel>false</isHideLabel>
+            <cssStyle>POSITION: absolute;FONT-SIZE:11;</cssStyle>
+            <cssDevice id="419">
+              <value>0</value>
+            </cssDevice>
+            <id>sfdc006_desc</id>
+            <name>sfdc006_desc</name>
+            <navindex>0</navindex>
+            <precision>0</precision>
+            <scale>0</scale>
+            <persistentType>0</persistentType>
+            <doValidationOnSubmit>false</doValidationOnSubmit>
+          </elementDefinition>
+          <caption>說明</caption>
+          <multiZhMap id="420">
+            <entry>
+              <locale reference="28"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="421">
+                <ZhLocale reference="28"/>
+                <ZhPresentation>説明</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="26"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="422">
+                <ZhLocale reference="26"/>
+                <ZhPresentation>설명</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="30"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="423">
+                <ZhLocale reference="30"/>
+                <ZhPresentation>Giải thích</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="34"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="424">
+                <ZhLocale reference="34"/>
+                <ZhPresentation>อธิบาย</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="32"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="425">
+                <ZhLocale reference="32"/>
+                <ZhPresentation>Description</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="14"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="426">
+                <ZhLocale reference="14"/>
+                <ZhPresentation>说明</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="16"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="427">
+                <ZhLocale reference="16"/>
+                <ZhPresentation>說明</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+          </multiZhMap>
+        </com.dsc.nana.domain.form.ListItem>
+        <com.dsc.nana.domain.form.ListItem id="428">
+          <itemOrder>0</itemOrder>
+          <id>sfba013</id>
+          <binding></binding>
+          <elementDefinition class="com.dsc.nana.domain.form.InputElementDefinition" id="429">
+            <controlType id="430">
+              <value>INPUT_TYPE</value>
+            </controlType>
+            <isRequired>false</isRequired>
+            <isValidateDataType>false</isValidateDataType>
+            <isValidateDataLength>false</isValidateDataLength>
+            <isValidateDataRequire>false</isValidateDataRequire>
+            <participantDefine id="431">
+              <value>NORMAL</value>
+            </participantDefine>
+            <isReplaceThousandths>false</isReplaceThousandths>
+            <isThousandths>false</isThousandths>
+            <isCustomValidation>false</isCustomValidation>
+            <length>0</length>
+            <dataType id="432">
+              <value>0</value>
+            </dataType>
+            <isHideLabel>false</isHideLabel>
+            <cssStyle>POSITION: absolute;FONT-SIZE:11;</cssStyle>
+            <cssDevice id="433">
+              <value>0</value>
+            </cssDevice>
+            <id>sfba013</id>
+            <name>sfba013</name>
+            <navindex>0</navindex>
+            <precision>0</precision>
+            <scale>0</scale>
+            <persistentType>0</persistentType>
+            <doValidationOnSubmit>false</doValidationOnSubmit>
+          </elementDefinition>
+          <caption>應發數量</caption>
+          <multiZhMap id="434">
+            <entry>
+              <locale reference="28"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="435">
+                <ZhLocale reference="28"/>
+                <ZhPresentation>払出し数量</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="26"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="436">
+                <ZhLocale reference="26"/>
+                <ZhPresentation>지불해야할 수량</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="30"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="437">
+                <ZhLocale reference="30"/>
+                <ZhPresentation>Số lượng phải phát</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="34"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="438">
+                <ZhLocale reference="34"/>
+                <ZhPresentation>จำนวนปริมาณที่ควรจ่าย</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="32"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="439">
+                <ZhLocale reference="32"/>
+                <ZhPresentation>Required Qty</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="14"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="440">
+                <ZhLocale reference="14"/>
+                <ZhPresentation>应发数量</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="16"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="441">
+                <ZhLocale reference="16"/>
+                <ZhPresentation>應發數量</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+          </multiZhMap>
+        </com.dsc.nana.domain.form.ListItem>
+        <com.dsc.nana.domain.form.ListItem id="442">
+          <itemOrder>0</itemOrder>
+          <id>sfba016</id>
+          <binding></binding>
+          <elementDefinition class="com.dsc.nana.domain.form.InputElementDefinition" id="443">
+            <controlType id="444">
+              <value>INPUT_TYPE</value>
+            </controlType>
+            <isRequired>false</isRequired>
+            <isValidateDataType>false</isValidateDataType>
+            <isValidateDataLength>false</isValidateDataLength>
+            <isValidateDataRequire>false</isValidateDataRequire>
+            <participantDefine id="445">
+              <value>NORMAL</value>
+            </participantDefine>
+            <isReplaceThousandths>false</isReplaceThousandths>
+            <isThousandths>false</isThousandths>
+            <isCustomValidation>false</isCustomValidation>
+            <length>0</length>
+            <dataType id="446">
+              <value>0</value>
+            </dataType>
+            <isHideLabel>false</isHideLabel>
+            <cssStyle>POSITION: absolute;FONT-SIZE:11;</cssStyle>
+            <cssDevice id="447">
+              <value>0</value>
+            </cssDevice>
+            <id>sfba016</id>
+            <name>sfba016</name>
+            <navindex>0</navindex>
+            <precision>0</precision>
+            <scale>0</scale>
+            <persistentType>0</persistentType>
+            <doValidationOnSubmit>false</doValidationOnSubmit>
+          </elementDefinition>
+          <caption>已發數量</caption>
+          <multiZhMap id="448">
+            <entry>
+              <locale reference="28"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="449">
+                <ZhLocale reference="28"/>
+                <ZhPresentation>交付済み数量</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="26"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="450">
+                <ZhLocale reference="26"/>
+                <ZhPresentation>이미 발송한 수량</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="30"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="451">
+                <ZhLocale reference="30"/>
+                <ZhPresentation>Số lượng đã phát</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="34"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="452">
+                <ZhLocale reference="34"/>
+                <ZhPresentation>จำนวนปริมาณที่จ่ายแล้ว</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="32"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="453">
+                <ZhLocale reference="32"/>
+                <ZhPresentation>Issued Qty</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="14"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="454">
+                <ZhLocale reference="14"/>
+                <ZhPresentation>已发数量</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="16"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="455">
+                <ZhLocale reference="16"/>
+                <ZhPresentation>已發數量</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+          </multiZhMap>
+        </com.dsc.nana.domain.form.ListItem>
+        <com.dsc.nana.domain.form.ListItem id="456">
+          <itemOrder>0</itemOrder>
+          <id>sfdc007</id>
+          <binding></binding>
+          <elementDefinition class="com.dsc.nana.domain.form.InputElementDefinition" id="457">
+            <controlType id="458">
+              <value>INPUT_TYPE</value>
+            </controlType>
+            <isRequired>false</isRequired>
+            <isValidateDataType>false</isValidateDataType>
+            <isValidateDataLength>false</isValidateDataLength>
+            <isValidateDataRequire>false</isValidateDataRequire>
+            <participantDefine id="459">
+              <value>NORMAL</value>
+            </participantDefine>
+            <isReplaceThousandths>false</isReplaceThousandths>
+            <isThousandths>false</isThousandths>
+            <isCustomValidation>false</isCustomValidation>
+            <length>0</length>
+            <dataType id="460">
+              <value>0</value>
+            </dataType>
+            <isHideLabel>false</isHideLabel>
+            <cssStyle>POSITION: absolute;FONT-SIZE:11;</cssStyle>
+            <cssDevice id="461">
+              <value>0</value>
+            </cssDevice>
+            <id>sfdc007</id>
+            <name>sfdc007</name>
+            <navindex>0</navindex>
+            <precision>0</precision>
+            <scale>0</scale>
+            <persistentType>0</persistentType>
+            <doValidationOnSubmit>false</doValidationOnSubmit>
+          </elementDefinition>
+          <caption>申請數量</caption>
+          <multiZhMap id="462">
+            <entry>
+              <locale reference="28"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="463">
+                <ZhLocale reference="28"/>
+                <ZhPresentation>申請数量</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="26"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="464">
+                <ZhLocale reference="26"/>
+                <ZhPresentation></ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="30"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="465">
+                <ZhLocale reference="30"/>
+                <ZhPresentation>Số lượng đề nghị</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="34"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="466">
+                <ZhLocale reference="34"/>
+                <ZhPresentation>จำนวนปริมาณที่ยื่นเรื่อง</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="32"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="467">
+                <ZhLocale reference="32"/>
+                <ZhPresentation>Applied Qty</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="14"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="468">
+                <ZhLocale reference="14"/>
+                <ZhPresentation>申请数量</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="16"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="469">
+                <ZhLocale reference="16"/>
+                <ZhPresentation>申請數量</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+          </multiZhMap>
+        </com.dsc.nana.domain.form.ListItem>
+        <com.dsc.nana.domain.form.ListItem id="470">
+          <itemOrder>0</itemOrder>
+          <id>sfdc012</id>
+          <binding></binding>
+          <elementDefinition class="com.dsc.nana.domain.form.InputElementDefinition" id="471">
+            <controlType id="472">
+              <value>INPUT_TYPE</value>
+            </controlType>
+            <isRequired>false</isRequired>
+            <isValidateDataType>false</isValidateDataType>
+            <isValidateDataLength>false</isValidateDataLength>
+            <isValidateDataRequire>false</isValidateDataRequire>
+            <participantDefine id="473">
+              <value>NORMAL</value>
+            </participantDefine>
+            <isReplaceThousandths>false</isReplaceThousandths>
+            <isThousandths>false</isThousandths>
+            <isCustomValidation>false</isCustomValidation>
+            <length>0</length>
+            <dataType id="474">
+              <value>0</value>
+            </dataType>
+            <isHideLabel>false</isHideLabel>
+            <cssStyle>POSITION: absolute;FONT-SIZE:11;</cssStyle>
+            <cssDevice id="475">
+              <value>0</value>
+            </cssDevice>
+            <id>sfdc012</id>
+            <name>sfdc012</name>
+            <navindex>0</navindex>
+            <precision>0</precision>
+            <scale>0</scale>
+            <persistentType>0</persistentType>
+            <doValidationOnSubmit>false</doValidationOnSubmit>
+          </elementDefinition>
+          <caption>指定庫位</caption>
+          <multiZhMap id="476">
+            <entry>
+              <locale reference="28"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="477">
+                <ZhLocale reference="28"/>
+                <ZhPresentation></ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="26"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="478">
+                <ZhLocale reference="26"/>
+                <ZhPresentation></ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="30"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="479">
+                <ZhLocale reference="30"/>
+                <ZhPresentation></ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="34"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="480">
+                <ZhLocale reference="34"/>
+                <ZhPresentation></ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="32"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="481">
+                <ZhLocale reference="32"/>
+                <ZhPresentation></ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="14"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="482">
+                <ZhLocale reference="14"/>
+                <ZhPresentation>指定库位</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="16"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="483">
+                <ZhLocale reference="16"/>
+                <ZhPresentation>指定庫位</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+          </multiZhMap>
+        </com.dsc.nana.domain.form.ListItem>
+        <com.dsc.nana.domain.form.ListItem id="484">
+          <itemOrder>0</itemOrder>
+          <id>sfdc012_desc</id>
+          <binding></binding>
+          <elementDefinition class="com.dsc.nana.domain.form.InputElementDefinition" id="485">
+            <controlType id="486">
+              <value>INPUT_TYPE</value>
+            </controlType>
+            <isRequired>false</isRequired>
+            <isValidateDataType>false</isValidateDataType>
+            <isValidateDataLength>false</isValidateDataLength>
+            <isValidateDataRequire>false</isValidateDataRequire>
+            <participantDefine id="487">
+              <value>NORMAL</value>
+            </participantDefine>
+            <isReplaceThousandths>false</isReplaceThousandths>
+            <isThousandths>false</isThousandths>
+            <isCustomValidation>false</isCustomValidation>
+            <length>0</length>
+            <dataType id="488">
+              <value>0</value>
+            </dataType>
+            <isHideLabel>false</isHideLabel>
+            <cssStyle>POSITION: absolute;FONT-SIZE:11;</cssStyle>
+            <cssDevice id="489">
+              <value>0</value>
+            </cssDevice>
+            <id>sfdc012_desc</id>
+            <name>sfdc012_desc</name>
+            <navindex>0</navindex>
+            <precision>0</precision>
+            <scale>0</scale>
+            <persistentType>0</persistentType>
+            <doValidationOnSubmit>false</doValidationOnSubmit>
+          </elementDefinition>
+          <caption>庫位名稱</caption>
+          <multiZhMap id="490">
+            <entry>
+              <locale reference="28"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="491">
+                <ZhLocale reference="28"/>
+                <ZhPresentation>在庫名称</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="26"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="492">
+                <ZhLocale reference="26"/>
+                <ZhPresentation>재고품 명</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="30"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="493">
+                <ZhLocale reference="30"/>
+                <ZhPresentation>Tên kho</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="34"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="494">
+                <ZhLocale reference="34"/>
+                <ZhPresentation>ชื่อสถานที่ของคลัง</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="32"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="495">
+                <ZhLocale reference="32"/>
+                <ZhPresentation>Stock Name</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="14"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="496">
+                <ZhLocale reference="14"/>
+                <ZhPresentation>库位名称</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="16"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="497">
+                <ZhLocale reference="16"/>
+                <ZhPresentation>庫位名稱</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+          </multiZhMap>
+        </com.dsc.nana.domain.form.ListItem>
+        <com.dsc.nana.domain.form.ListItem id="498">
+          <itemOrder>0</itemOrder>
+          <id>sfdc013</id>
+          <binding></binding>
+          <elementDefinition class="com.dsc.nana.domain.form.InputElementDefinition" id="499">
+            <controlType id="500">
+              <value>INPUT_TYPE</value>
+            </controlType>
+            <isRequired>false</isRequired>
+            <isValidateDataType>false</isValidateDataType>
+            <isValidateDataLength>false</isValidateDataLength>
+            <isValidateDataRequire>false</isValidateDataRequire>
+            <participantDefine id="501">
+              <value>NORMAL</value>
+            </participantDefine>
+            <isReplaceThousandths>false</isReplaceThousandths>
+            <isThousandths>false</isThousandths>
+            <isCustomValidation>false</isCustomValidation>
+            <length>0</length>
+            <dataType id="502">
+              <value>0</value>
+            </dataType>
+            <isHideLabel>false</isHideLabel>
+            <cssStyle>POSITION: absolute;FONT-SIZE:11;</cssStyle>
+            <cssDevice id="503">
+              <value>0</value>
+            </cssDevice>
+            <id>sfdc013</id>
+            <name>sfdc013</name>
+            <navindex>0</navindex>
+            <precision>0</precision>
+            <scale>0</scale>
+            <persistentType>0</persistentType>
+            <doValidationOnSubmit>false</doValidationOnSubmit>
+          </elementDefinition>
+          <caption>指定儲位</caption>
+          <multiZhMap id="504">
+            <entry>
+              <locale reference="28"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="505">
+                <ZhLocale reference="28"/>
+                <ZhPresentation>指定保管位置</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="26"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="506">
+                <ZhLocale reference="26"/>
+                <ZhPresentation></ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="30"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="507">
+                <ZhLocale reference="30"/>
+                <ZhPresentation>Chỉ định vị trí lưu kho</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="34"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="508">
+                <ZhLocale reference="34"/>
+                <ZhPresentation>กำหนดสถานที่เก็บ</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="32"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="509">
+                <ZhLocale reference="32"/>
+                <ZhPresentation>Assign location</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="14"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="510">
+                <ZhLocale reference="14"/>
+                <ZhPresentation>指定储位</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="16"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="511">
+                <ZhLocale reference="16"/>
+                <ZhPresentation>指定儲位</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+          </multiZhMap>
+        </com.dsc.nana.domain.form.ListItem>
+        <com.dsc.nana.domain.form.ListItem id="512">
+          <itemOrder>0</itemOrder>
+          <id>sfdc013_desc</id>
+          <binding></binding>
+          <elementDefinition class="com.dsc.nana.domain.form.InputElementDefinition" id="513">
+            <controlType id="514">
+              <value>INPUT_TYPE</value>
+            </controlType>
+            <isRequired>false</isRequired>
+            <isValidateDataType>false</isValidateDataType>
+            <isValidateDataLength>false</isValidateDataLength>
+            <isValidateDataRequire>false</isValidateDataRequire>
+            <participantDefine id="515">
+              <value>NORMAL</value>
+            </participantDefine>
+            <isReplaceThousandths>false</isReplaceThousandths>
+            <isThousandths>false</isThousandths>
+            <isCustomValidation>false</isCustomValidation>
+            <length>0</length>
+            <dataType id="516">
+              <value>0</value>
+            </dataType>
+            <isHideLabel>false</isHideLabel>
+            <cssStyle>POSITION: absolute;FONT-SIZE:11;</cssStyle>
+            <cssDevice id="517">
+              <value>0</value>
+            </cssDevice>
+            <id>sfdc013_desc</id>
+            <name>sfdc013_desc</name>
+            <navindex>0</navindex>
+            <precision>0</precision>
+            <scale>0</scale>
+            <persistentType>0</persistentType>
+            <doValidationOnSubmit>false</doValidationOnSubmit>
+          </elementDefinition>
+          <caption>儲位名稱</caption>
+          <multiZhMap id="518">
+            <entry>
+              <locale reference="28"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="519">
+                <ZhLocale reference="28"/>
+                <ZhPresentation>貯蔵位置名称</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="26"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="520">
+                <ZhLocale reference="26"/>
+                <ZhPresentation>저장 위치 명칭</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="30"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="521">
+                <ZhLocale reference="30"/>
+                <ZhPresentation>Tên vị trí lưu</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="34"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="522">
+                <ZhLocale reference="34"/>
+                <ZhPresentation>ชื่อสถานที่เก็บ</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="32"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="523">
+                <ZhLocale reference="32"/>
+                <ZhPresentation>Location Name</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="14"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="524">
+                <ZhLocale reference="14"/>
+                <ZhPresentation>储位名称</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="16"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="525">
+                <ZhLocale reference="16"/>
+                <ZhPresentation>儲位名稱</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+          </multiZhMap>
+        </com.dsc.nana.domain.form.ListItem>
+        <com.dsc.nana.domain.form.ListItem id="526">
+          <itemOrder>0</itemOrder>
+          <id>sfdc014</id>
+          <binding></binding>
+          <elementDefinition class="com.dsc.nana.domain.form.InputElementDefinition" id="527">
+            <controlType id="528">
+              <value>INPUT_TYPE</value>
+            </controlType>
+            <isRequired>false</isRequired>
+            <isValidateDataType>false</isValidateDataType>
+            <isValidateDataLength>false</isValidateDataLength>
+            <isValidateDataRequire>false</isValidateDataRequire>
+            <participantDefine id="529">
+              <value>NORMAL</value>
+            </participantDefine>
+            <isReplaceThousandths>false</isReplaceThousandths>
+            <isThousandths>false</isThousandths>
+            <isCustomValidation>false</isCustomValidation>
+            <length>0</length>
+            <dataType id="530">
+              <value>0</value>
+            </dataType>
+            <isHideLabel>false</isHideLabel>
+            <cssStyle>POSITION: absolute;FONT-SIZE:11;</cssStyle>
+            <cssDevice id="531">
+              <value>0</value>
+            </cssDevice>
+            <id>sfdc014</id>
+            <name>sfdc014</name>
+            <navindex>0</navindex>
+            <precision>0</precision>
+            <scale>0</scale>
+            <persistentType>0</persistentType>
+            <doValidationOnSubmit>false</doValidationOnSubmit>
+          </elementDefinition>
+          <caption>指定批號</caption>
+          <multiZhMap id="532">
+            <entry>
+              <locale reference="28"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="533">
+                <ZhLocale reference="28"/>
+                <ZhPresentation>指定ロット番号</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="26"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="534">
+                <ZhLocale reference="26"/>
+                <ZhPresentation></ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="30"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="535">
+                <ZhLocale reference="30"/>
+                <ZhPresentation>Chỉ định số đợt</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="34"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="536">
+                <ZhLocale reference="34"/>
+                <ZhPresentation>กำหนดหมายเลขชุด</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="32"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="537">
+                <ZhLocale reference="32"/>
+                <ZhPresentation>Assign Lot No.</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="14"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="538">
+                <ZhLocale reference="14"/>
+                <ZhPresentation>指定批号</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="16"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="539">
+                <ZhLocale reference="16"/>
+                <ZhPresentation>指定批號</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+          </multiZhMap>
+        </com.dsc.nana.domain.form.ListItem>
+        <com.dsc.nana.domain.form.ListItem id="540">
+          <itemOrder>0</itemOrder>
+          <id>sfdc_ooff013</id>
+          <binding></binding>
+          <elementDefinition class="com.dsc.nana.domain.form.InputElementDefinition" id="541">
+            <controlType id="542">
+              <value>INPUT_TYPE</value>
+            </controlType>
+            <isRequired>false</isRequired>
+            <isValidateDataType>false</isValidateDataType>
+            <isValidateDataLength>false</isValidateDataLength>
+            <isValidateDataRequire>false</isValidateDataRequire>
+            <participantDefine id="543">
+              <value>NORMAL</value>
+            </participantDefine>
+            <isReplaceThousandths>false</isReplaceThousandths>
+            <isThousandths>false</isThousandths>
+            <isCustomValidation>false</isCustomValidation>
+            <length>0</length>
+            <dataType id="544">
+              <value>0</value>
+            </dataType>
+            <isHideLabel>false</isHideLabel>
+            <cssStyle>POSITION: absolute;FONT-SIZE:11;</cssStyle>
+            <cssDevice id="545">
+              <value>0</value>
+            </cssDevice>
+            <id>sfdc_ooff013</id>
+            <name>sfdc_ooff013</name>
+            <navindex>0</navindex>
+            <precision>0</precision>
+            <scale>0</scale>
+            <persistentType>0</persistentType>
+            <doValidationOnSubmit>false</doValidationOnSubmit>
+          </elementDefinition>
+          <caption>備註說明</caption>
+          <multiZhMap id="546">
+            <entry>
+              <locale reference="28"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="547">
+                <ZhLocale reference="28"/>
+                <ZhPresentation>注記説明</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="26"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="548">
+                <ZhLocale reference="26"/>
+                <ZhPresentation>비고 사항 설명</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="30"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="549">
+                <ZhLocale reference="30"/>
+                <ZhPresentation>Chú giải ghi chú</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="34"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="550">
+                <ZhLocale reference="34"/>
+                <ZhPresentation>คำอธิบายของหมายเหตุ</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="32"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="551">
+                <ZhLocale reference="32"/>
+                <ZhPresentation>Memo Description</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="14"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="552">
+                <ZhLocale reference="14"/>
+                <ZhPresentation>备注说明</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+            <entry>
+              <locale reference="16"/>
+              <com.dsc.nana.domain.form.MulitZhEntity id="553">
+                <ZhLocale reference="16"/>
+                <ZhPresentation>備註說明</ZhPresentation>
+              </com.dsc.nana.domain.form.MulitZhEntity>
+            </entry>
+          </multiZhMap>
+        </com.dsc.nana.domain.form.ListItem>
+      </listItems>
+      <autoSerialNumber>false</autoSerialNumber>
+      <isHideLabel>false</isHideLabel>
+      <cssStyle>position:absolute;height:200px;color:#;text-align:left;width:780px;font-size:12px;background-color:#ffffff;left:10px;top:480px;</cssStyle>
+      <cssDevice reference="8"/>
+      <elementStyles class="list" id="554">
+        <com.dsc.nana.domain.form.ElementStyle id="555">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="556">
+            <value>0</value>
+          </device>
+          <height>200</height>
+          <width>780</width>
+          <foregroundColor>0</foregroundColor>
+          <backgroundColor>16777215</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>10</coordinateX>
+          <coordinateY>480</coordinateY>
+          <alignType id="557">
+            <value>LEFT</value>
+          </alignType>
+          <rwdRowIndex>0</rwdRowIndex>
+          <rwdColumnIndex>0</rwdColumnIndex>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <id>s_detail2</id>
+      <multiZhMap id="558"/>
+      <name>s_detail2</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>0</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="559"/>
+    </com.dsc.nana.domain.form.ListElementDefinition>
+    <com.dsc.nana.domain.form.AttachmentElementDefinition id="560">
+      <maxSizeOfPerFile>0</maxSizeOfPerFile>
+      <totalSizeOfFiles>0</totalSizeOfFiles>
+      <typeConstraint></typeConstraint>
+      <numberConstraint>0</numberConstraint>
+      <caption>attachment</caption>
+      <isConvertPDF>false</isConvertPDF>
+      <cssStyle>position:absolute;height:20px;text-align:center;color:#;width:100px;font-size:12px;background-color:#;left:10px;top:700px;</cssStyle>
+      <cssDevice reference="8"/>
+      <elementStyles class="list" id="561">
+        <com.dsc.nana.domain.form.ElementStyle id="562">
+          <isShowOnDevice>true</isShowOnDevice>
+          <device id="563">
+            <value>0</value>
+          </device>
+          <height>20</height>
+          <width>100</width>
+          <foregroundColor>0</foregroundColor>
+          <backgroundColor>16777215</backgroundColor>
+          <readonlyBackgroundColor>16777215</readonlyBackgroundColor>
+          <coordinateX>10</coordinateX>
+          <coordinateY>700</coordinateY>
+          <alignType id="564">
+            <value>CENTER</value>
+          </alignType>
+          <rwdRowIndex>0</rwdRowIndex>
+          <rwdColumnIndex>0</rwdColumnIndex>
+        </com.dsc.nana.domain.form.ElementStyle>
+      </elementStyles>
+      <id>Attachment</id>
+      <multiZhMap id="565"/>
+      <name>Attachment</name>
+      <navindex>0</navindex>
+      <precision>0</precision>
+      <scale>0</scale>
+      <persistentType>-1</persistentType>
+      <doValidationOnSubmit>false</doValidationOnSubmit>
+      <validationRules class="list" id="566"/>
+    </com.dsc.nana.domain.form.AttachmentElementDefinition>
+  </elementDefinitions>
+  <formDefinitionStyles class="list" id="567">
+    <com.dsc.nana.domain.form.FormDefinitionStyle id="568">
+      <device id="569">
+        <value>0</value>
+      </device>
+      <backgroundImageSerialize id="570"></backgroundImageSerialize>
+      <isAbsolutePosition>true</isAbsolutePosition>
+      <height>740</height>
+      <width>800</width>
+    </com.dsc.nana.domain.form.FormDefinitionStyle>
+  </formDefinitionStyles>
+  <id>asft312</id>
+  <multiZhMap id="571">
+    <entry>
+      <locale reference="14"/>
+      <string>工单超领维护作业</string>
+    </entry>
+    <entry>
+      <locale reference="16"/>
+      <string>工單超領維護作業</string>
+    </entry>
+  </multiZhMap>
+  <name>工單超領維護作業(asft312)</name>
+  <processCommentType id="572">
+    <value>NOT_SHOW</value>
+  </processCommentType>
+  <publicationStatus id="573">
+    <value>RELEASED</value>
+  </publicationStatus>
+  <script>document.write(&quot;&lt;style&gt;&quot;);
+if ( typeof (s_detail1Obj) != &apos;undefined&apos;) {
+	document.write(&quot;#&quot; + s_detail1Obj.getId() + &quot; .aw-column-4{text-align: right;}&quot;);
+	document.write(&quot;#&quot; + s_detail1Obj.getId() + &quot; .aw-column-6{text-align: right;}&quot;);
+}
+if ( typeof (s_detail2Obj) != &apos;undefined&apos;) {
+	document.write(&quot;#&quot; + s_detail2Obj.getId() + &quot; .aw-column-0{text-align: right;}&quot;);
+	document.write(&quot;#&quot; + s_detail2Obj.getId() + &quot; .aw-column-2{text-align: right;}&quot;);
+	document.write(&quot;#&quot; + s_detail2Obj.getId() + &quot; .aw-column-3{text-align: right;}&quot;);
+	document.write(&quot;#&quot; + s_detail2Obj.getId() + &quot; .aw-column-9{text-align: right;}&quot;);
+	document.write(&quot;#&quot; + s_detail2Obj.getId() + &quot; .aw-column-10{text-align: right;}&quot;);
+	document.write(&quot;#&quot; + s_detail2Obj.getId() + &quot; .aw-column-11{text-align: right;}&quot;);
+}
+document.write(&quot;&lt;/style&gt;&quot;);
+
+function formCreate(){
+    return true;
+}
+function formOpen(){
+	if (formMode != &quot;isPrintForm&quot;) {
+		/********Activity Reload Grid Script********/
+		var s_detail1Value = document.getElementById(&quot;s_detail1&quot;).value;
+		if(s_detail1Value != &quot;&quot;){
+			var s_detail1Data = eval(s_detail1Value);
+			s_detail1Obj.reload(s_detail1Data);
+		}
+		var s_detail2Value = document.getElementById(&quot;s_detail2&quot;).value;
+		if(s_detail2Value != &quot;&quot;){
+			var s_detail2Data = eval(s_detail2Value);
+			s_detail2Obj.reload(s_detail2Data);
+		}
+
+		/********Set Grid Width Script********/
+		s_detail1Obj.setColumnWidth(200, 0);
+		s_detail1Obj.setColumnWidth(130, 1);
+		s_detail1Obj.setColumnWidth(200, 2);
+		s_detail1Obj.setColumnWidth(100, 3);
+		s_detail1Obj.setColumnWidth(190, 4);
+		s_detail1Obj.setColumnWidth(100, 5);
+		s_detail1Obj.setColumnWidth(190, 6);
+		s_detail2Obj.setColumnWidth(50, 0);
+		s_detail2Obj.setColumnWidth(200, 1);
+		s_detail2Obj.setColumnWidth(70, 2);
+		s_detail2Obj.setColumnWidth(70, 3);
+		s_detail2Obj.setColumnWidth(200, 4);
+		s_detail2Obj.setColumnWidth(170, 5);
+		s_detail2Obj.setColumnWidth(100, 6);
+		s_detail2Obj.setColumnWidth(100, 7);
+		s_detail2Obj.setColumnWidth(100, 8);
+		s_detail2Obj.setColumnWidth(190, 9);
+		s_detail2Obj.setColumnWidth(190, 10);
+		s_detail2Obj.setColumnWidth(190, 11);
+		s_detail2Obj.setColumnWidth(100, 12);
+		s_detail2Obj.setColumnWidth(100, 13);
+		s_detail2Obj.setColumnWidth(100, 14);
+		s_detail2Obj.setColumnWidth(100, 15);
+		s_detail2Obj.setColumnWidth(300, 16);
+		s_detail2Obj.setColumnWidth(230, 17);
+	}
+	
+    /********NoBorder TextBox Script********/
+    document.getElementById(&quot;sfda003_desc&quot;).style.border = &quot;none&quot;;
+    document.getElementById(&quot;sfda004_desc&quot;).style.border = &quot;none&quot;;
+
+    return true;
+}
+function formSave(){
+    return true;
+}
+function formClose(){
+    return true;
+}
+//$-----Auto generated script block, Please do not edit or modify script below this line.-----$//</script>
+  <sqlCmds class="list" id="574"/>
+  <validFrom id="575">2016-04-15 16:18:50.0</validFrom>
+  <version>1</version>
+  <appDesignType id="576">
+    <value>-1</value>
+  </appDesignType>
+  <mobileScript>null//$-----Auto generated script block, Please do not edit or modify script below this line.-----$//</mobileScript>
+  <SET__PROXY__CLASS__NAME>org.apache.ojb.broker.accesslayer.SetProxy</SET__PROXY__CLASS__NAME>
+  <LIST__PROXY__CLASS__NAME>org.apache.ojb.broker.accesslayer.ListProxy</LIST__PROXY__CLASS__NAME>
+  <dto>true</dto>
+  <dtoState id="577">
+    <value>1</value>
+  </dtoState>
+  <OID>19827bd0df0c1004816e49b8ba9b866e</OID>
+  <objectVersion>1</objectVersion>
+</com.dsc.nana.domain.form.FormDefinition>
