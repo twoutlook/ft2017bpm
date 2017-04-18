@@ -252,14 +252,7 @@ function setTimeStart(){
 	sql="SELECT to_char(sysdate,'yyyy-mm-dd hh24:mm:ss') 查询时间 FROM BASIC005";
 	rst= T100PROD.query(sql);  //執行SQL查詢  
 	document.getElementById("txtQryStart").value = rst[0][0];
-	// alert ("PROD ");
-	// alert (sql);
 
-	// rst= T100TEST.query(sql);  //執行SQL查詢  
-	// document.getElementById(txtb).value = rst[0][0];
-	// alert ("TEST ")
-// alert (sql);
-	
 }
 
 function setTimeEnd(){
